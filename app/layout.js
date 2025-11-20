@@ -1,0 +1,49 @@
+// app/layout.js
+import "./globals.css";
+import "./fonts.css";
+
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import Script from "next/script";
+
+export const metadata = {
+  title: "Zocveda Wellness | Leading Pharma & Nutraceutical Manufacturer in India",
+  description:
+    "Zocveda Wellness is a trusted PCD pharma company and third-party manufacturer offering premium pharmaceutical and nutraceutical products with WHO-GMP certified facilities, custom formulations, private labeling, and nationwide PCD franchise opportunities.",
+  keywords:
+    "Biozoc Inc, pharma manufacturer India, nutraceutical manufacturer India, third party pharma manufacturing, contract manufacturing pharma, PCD pharma company, PCD franchise India, private label nutraceuticals, pharma OEM services, custom formulation pharma, WHO GMP certified manufacturer",
+};
+
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      {/* 
+        Keep className stable and predictable
+        — no dynamic values that can differ between SSR and client.
+      */}
+      <body>
+        <Navbar />
+        <main>{children}</main>
+        <Footer />
+
+        {/* ✅ Optional: Load Tawk.to script safely */}
+
+        <Script id="tawk-to" strategy="afterInteractive">
+          {`
+            var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+            (function(){
+              var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+              s1.async=true;
+              s1.src='https://embed.tawk.to/690c4136418b98195b55193c/1j9bttfv8';
+              s1.charset='UTF-8';
+              s1.setAttribute('crossorigin','*');
+              s0.parentNode.insertBefore(s1,s0);
+            })();
+          `}
+        </Script>
+
+      </body>
+    </html>
+  );
+}
