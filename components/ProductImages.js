@@ -32,8 +32,9 @@ export default function ProductImages({ images = [] }) {
           alt="Product"
           style={{
             maxWidth: "100%",
-            maxHeight: "100%",
             objectFit: "contain",
+            aspectRatio: "1 / 1",
+            mixBlendMode:'multiply'
           }}
         />
       </Box>

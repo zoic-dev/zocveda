@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { Box, Grid, Typography } from "@mui/material";
 
 const statsData = [
-    { label: "Ayurvedic Products", value: 130 },
+    { label: "Ayurvedic Products", value: 450 },
     { label: "Franchise Partners", value: 5000 },
     { label: "Years of Expertise", value: 35 },
     { label: "Formulations", value: 50 },

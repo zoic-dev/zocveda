@@ -17,7 +17,7 @@ const SimpleSlider = () => {
     return (
         <Slider {...settings}>
             <div>
-                <img src={"/banner1.jpg"} style={{ width: '100%' }} />
+                <img src={"/banner1.png"} style={{ width: '100%' }} />
             </div>
             <div>
                 <img src={"/banner2.jpg"} style={{ width: '100%' }} />

@@ -101,11 +101,12 @@ export default function PageContent() {
                                         >
                                             <CardMedia
                                                 component="img"
-                                                height="200"
                                                 image={product.images?.[0]?.src || "/placeholder.jpg"}
                                                 alt={product.name}
                                                 sx={{
-                                                    objectFit: "contain",
+                                                    width: "100%",        // take full card width
+                                                    aspectRatio: "1 / 1", // keep square
+                                                    objectFit: "cover",   // fill square, may crop slightly
                                                     bgcolor: "#fafafa",
                                                 }}
                                             />

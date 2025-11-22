@@ -95,13 +95,14 @@ export default function Navbar() {
         {
             label: "Products", href: "/products",
             dropdown: [
-                { label: "Digestive Care", href: "/products/category/tablets/38" },
-                { label: "Pain & Bone Care", href: "/products/category/capsules/37" },
-                { label: "Mental & Sleep Care", href: "/products/category/syrups/36" },
-                { label: "Men's Health", href: "/products/category/soap/15" },
-                { label: "Women's Health", href: "/products/category/cream/39" },
-                { label: "Hair and Skin Care", href: "/products/category/churan/41" },
-                { label: "Kids health", href: "/products/category/oil/40" },
+                { label: "Digestive Care", href: "/products/category/digestive-care" },
+                { label: "Pain & Bone Care", href: "/products/category/pain-and-bone-care" },
+                { label: "Mental & Sleep Care", href: "/products/category/mental-and-sleep-care" },
+                { label: "Men's Health", href: "/products/category/mens-health" },
+                { label: "Women's Health", href: "/products/category/womens-health" },
+                { label: "Hair and Skin Care", href: "/products/category/hair-and-skin-care" },
+                { label: "Kids health", href: "/products/category/kids-health" },
+                { label: "Detox & Cleaning Wellness", href: "/products/category/detox-and-cleaning-wellness" },
             ],
         },
         { label: "PCD Franchise", href: "/pcd-franchise" },
@@ -200,7 +201,7 @@ export default function Navbar() {
                 <Toolbar
                     sx={{
                         display: "flex",
-                        justifyContent: isMobile ? "space-between":"space-around",
+                        justifyContent: isMobile ? "space-between" : "space-around",
                         alignItems: "center",
                         px: { xs: 2, sm: 4 },
                         overflow: "visible",

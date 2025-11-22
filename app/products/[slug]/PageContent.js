@@ -131,7 +131,7 @@ export default function PageContent({ initialProduct, slug }) {
                     {/* Product Info */}
                     <Grid size={{ xs: 12, md: 7 }}>
                         <Stack spacing={2}>
-                            <Typography variant="h3" fontWeight={700}>
+                            <Typography variant="h4" fontWeight={700}>
                                 {name}
                             </Typography>
 
@@ -151,7 +151,7 @@ export default function PageContent({ initialProduct, slug }) {
                                                 sx={{
                                                     fontSize: "0.9rem",
                                                     fontWeight: 500,
-                                                    borderColor: "#ddd",
+                                                    borderColor: "#1F6A36",
                                                     "&:hover": {
                                                         backgroundColor: "#f5f5f5",
                                                     },

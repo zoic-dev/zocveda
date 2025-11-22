@@ -6,16 +6,49 @@ import TestimonialSlider from "@/components/TestimonialSlider";
 import { Button, Container, Grid, Stack, Typography, Card } from "@mui/material";
 import Link from "next/link";
 
-const productCategories = [
-  { label: "Digestive Care", img: "/categories/capsules.jpg", link: "/products/category/capsules/37" },
-  { label: "Pain & Bone Care", img: "/categories/protein.jpg", link: "/products/category/protein/40" },
-  { label: "Mental & Sleep Care", img: "/categories/ointments.jpg", link: "/products/category/ointments/39" },
-  { label: "Men's Health", img: "/categories/herbal.jpg", link: "/products/category/herbal/48" },
-  { label: "Women's Health", img: "/categories/syrup.jpg", link: "/products/category/syrup/36" },
-  { label: "Hair & Skin Care", img: "/categories/energy-drinks.jpg", link: "/products/category/energy-drinks/49" },
-  { label: "Kids Health", img: "/categories/injectables.jpg", link: "/products/category/injectables/61" },
-  { label: "Detox & Cleaning Wellness", img: "/categories/injectables.jpg", link: "/products/category/injectables/61" },
+export const productCategories = [
+  {
+    label: "Digestive Care",
+    img: "/categories/capsules.jpg",
+    link: "/products/category/digestive-care",
+  },
+  {
+    label: "Pain & Bone Care",
+    img: "/categories/protein.jpg",
+    link: "/products/category/pain-and-bone-care",
+  },
+  {
+    label: "Mental & Sleep Care",
+    img: "/categories/ointments.jpg",
+    link: "/products/category/mental-and-sleep-care",
+  },
+  {
+    label: "Men's Health",
+    img: "/categories/herbal.jpg",
+    link: "/products/category/mens-health",
+  },
+  {
+    label: "Women's Health",
+    img: "/categories/syrup.jpg",
+    link: "/products/category/womens-health",
+  },
+  {
+    label: "Hair & Skin Care",
+    img: "/categories/energy-drinks.jpg",
+    link: "/products/category/hair-and-skin-care",
+  },
+  {
+    label: "Kids Health",
+    img: "/categories/injectables.jpg",
+    link: "/products/category/kids-health",
+  },
+  {
+    label: "Detox & Cleaning Wellness",
+    img: "/categories/detox.jpg",
+    link: "/products/category/detox-and-cleaning-wellness",
+  },
 ];
+
 
 const whyChoose = [
   { img: "/choose/experience.png", label: "Since 1990" },
