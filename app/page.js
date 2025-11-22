@@ -9,42 +9,42 @@ import Link from "next/link";
 export const productCategories = [
   {
     label: "Digestive Care",
-    img: "/categories/capsules.jpg",
+    img: "/categories/digestive-care.png",
     link: "/products/category/digestive-care",
   },
   {
     label: "Pain & Bone Care",
-    img: "/categories/protein.jpg",
+    img: "/categories/pain-and-bone-care.png",
     link: "/products/category/pain-and-bone-care",
   },
   {
     label: "Mental & Sleep Care",
-    img: "/categories/ointments.jpg",
+    img: "/categories/mental-and-sleep-care.png",
     link: "/products/category/mental-and-sleep-care",
   },
   {
     label: "Men's Health",
-    img: "/categories/herbal.jpg",
+    img: "/categories/mens-health.png",
     link: "/products/category/mens-health",
   },
   {
     label: "Women's Health",
-    img: "/categories/syrup.jpg",
+    img: "/categories/womens-health.png",
     link: "/products/category/womens-health",
   },
   {
     label: "Hair & Skin Care",
-    img: "/categories/energy-drinks.jpg",
+    img: "/categories/hair-and-skin-care.png",
     link: "/products/category/hair-and-skin-care",
   },
   {
     label: "Kids Health",
-    img: "/categories/injectables.jpg",
+    img: "/categories/kids-health.png",
     link: "/products/category/kids-health",
   },
   {
     label: "Detox & Cleaning Wellness",
-    img: "/categories/detox.jpg",
+    img: "/categories/detox-and-cleaning-wellness.png",
     link: "/products/category/detox-and-cleaning-wellness",
   },
 ];
@@ -95,8 +95,8 @@ export default function Home() {
                       alt={item.label}
                       style={{
                         width: "100%",
-                        height: 180,
-                        objectFit: "cover",
+                        height: "auto",
+                        objectFit: "contain",
                         transition: "all 0.3s",
                       }}
                     />
