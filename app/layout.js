@@ -12,23 +12,28 @@ export const metadata = {
     "Zocveda Wellness is a trusted PCD pharma company and third-party manufacturer offering premium pharmaceutical and nutraceutical products with WHO-GMP certified facilities, custom formulations, private labeling, and nationwide PCD franchise opportunities.",
   keywords:
     "Biozoc Inc, pharma manufacturer India, nutraceutical manufacturer India, third party pharma manufacturing, contract manufacturing pharma, PCD pharma company, PCD franchise India, private label nutraceuticals, pharma OEM services, custom formulation pharma, WHO GMP certified manufacturer",
+  // Add Google Site Verification meta
+  verification: {
+    google: "XQjp9mCqpTlpym58nSH8t69Ojq941EU7Mmnyao0yGY8",
+  },
 };
-
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      {/* 
-        Keep className stable and predictable
-        — no dynamic values that can differ between SSR and client.
-      */}
+      <head>
+        {/* Google Site Verification */}
+        <meta
+          name="google-site-verification"
+          content="XQjp9mCqpTlpym58nSH8t69Ojq941EU7Mmnyao0yGY8"
+        />
+      </head>
       <body>
         <Navbar />
         <main>{children}</main>
         <Footer />
 
-        {/* ✅ Optional: Load Tawk.to script safely */}
-
+        {/* ✅ Tawk.to Script */}
         <Script id="tawk-to" strategy="afterInteractive">
           {`
             var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -43,6 +48,19 @@ export default function RootLayout({ children }) {
           `}
         </Script>
 
+        {/* ✅ Google Analytics Script */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-Q7YBJZQ12S"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-Q7YBJZQ12S');
+          `}
+        </Script>
       </body>
     </html>
   );
