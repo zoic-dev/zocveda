@@ -54,7 +54,7 @@ const DropdownMenu = styled("div")`
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
   border-radius: 8px;
   z-index: 9999;
-  min-width: 180px;
+  min-width: 200px;
   padding: 8px 0;
   opacity: ${({ open }) => (open ? 1 : 0)};
   visibility: ${({ open }) => (open ? "visible" : "hidden")};
@@ -103,6 +103,10 @@ export default function Navbar() {
                 { label: "Hair and Skin Care", href: "/products/category/hair-and-skin-care" },
                 { label: "Kids health", href: "/products/category/kids-health" },
                 { label: "Detox & Cleaning Wellness", href: "/products/category/detox-and-cleaning-wellness" },
+                { label: "Respiratory Care", href: "/products/category/respiratory-care" },
+                { label: "Diabetes & Metabolic Wellness", href: "/products/category/diabetes-and-metabolic-wellness" },
+                { label: "Kidney & Urinary Care", href: "/products/category/kidney-and-urinary-care" },
+                { label: "Dental & Oral Care", href: "/products/category/dental-and-oral-care" },
             ],
         },
         { label: "PCD Franchise", href: "/pcd-franchise" },
@@ -349,9 +353,9 @@ export default function Navbar() {
 
                                 <Collapse in={drawerProducts} timeout="auto" unmountOnExit>
                                     {link.dropdown.map((sub, j) => (
-                                        <ListItem key={j} sx={{ pl: 3 }}>
+                                        <ListItem key={j} sx={{ pl: 4 }}>
                                             <Link href={sub.href}>
-                                                <NavLink>{sub.label}</NavLink>
+                                                <NavLink sx={{fontSize:'14px'}}>{sub.label}</NavLink>
                                             </Link>
                                         </ListItem>
                                     ))}

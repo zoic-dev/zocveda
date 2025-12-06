@@ -6,16 +6,27 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "biozoc.com",
+        hostname: "zocveda.com",
         pathname: "/wp-content/uploads/**",
       },
       {
         protocol: "https",
-        hostname: "*.biozoc.com", // allows cms., cdn., media., files., etc.
+        hostname: "*.zocveda.com", // allows cms., cdn., media., files., etc.
         pathname: "/wp-content/uploads/**",
       }
     ],
   },
+
+  async redirects() {
+    return [
+      {
+        source: "/third-party-manufacturing-of-ayurvedic-products",
+        destination: "/third-party-manufacturing",
+        permanent: true
+      },
+      
+    ]
+  }
 };
 
 export default nextConfig;

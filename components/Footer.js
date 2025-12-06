@@ -69,8 +69,8 @@ const additionalLinks = [
         href: '/blog'
     },
     {
-        label: 'Contact Us',
-        href: '/contact'
+        label: 'FAQs',
+        href: '/frequently-asked-questions'
     },
     {
         label: 'PCD Pharma',

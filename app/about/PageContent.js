@@ -1,11 +1,13 @@
 "use client";
 
+import FAQComponent from "@/components/FAQComponent";
+import { PAGE_FAQS } from "@/data/faqsdata";
 import { Box, Container, Typography, Grid, Card, CardContent, Button } from "@mui/material";
 import Link from "next/link";
 
 export default function PageContent() {
     return (
-        <Box sx={{  pt: 6, pb: 10 }}>
+        <Box sx={{ pt: 6, pb: 10 }}>
             <Container maxWidth="lg">
 
                 {/* Header Section */}
@@ -122,6 +124,9 @@ export default function PageContent() {
                         </Box>
                     </Grid>
                 </Grid>
+
+                {/* FAQs */}
+                <FAQComponent faqs={PAGE_FAQS.about} />
 
             </Container>
         </Box>

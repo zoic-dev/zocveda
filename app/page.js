@@ -47,6 +47,26 @@ export const productCategories = [
     img: "/categories/detox-and-cleaning-wellness.png",
     link: "/products/category/detox-and-cleaning-wellness",
   },
+  {
+    label: "Respiratory Care",
+    img: "/categories/respiratory-care.png",
+    link: "/products/category/respiratory-care",
+  },
+  {
+    label: "Diabetes & Metabolic Wellness",
+    img: "/categories/diabetes-and-metabolic-wellness.png",
+    link: "/products/category/diabetes-and-metabolic-wellness",
+  },
+  {
+    label: "Kidney & Urinary Care",
+    img: "/categories/kidney-and-urinary-care.png",
+    link: "/products/category/kidney-and-urinary-care",
+  },
+  {
+    label: "Dental & Oral Care",
+    img: "/categories/dental-and-oral-care.png",
+    link: "/products/category/dental-and-oral-care",
+  },
 ];
 
 
