@@ -75,6 +75,18 @@ export default async function sitemap() {
         "/products",
         "/ayurvedic-pcd-pharma-franchise",
         "/third-party-manufacturing",
+        "/product/category/digestive-care",
+        "/product/category/pain-and-bone-care",
+        "/product/category/mental-and-sleep-care",
+        "/product/category/mens-health",
+        "/product/category/womens-health",
+        "/product/category/hair-and-skin-care",
+        "/product/category/kids-health",
+        "/product/category/detox-and-cleaning-wellness",
+        "/product/category/respiratory-care",
+        "/product/category/diabetes-and-metabolic-wellness",
+        "product/category/kidney-and-urinary-care",
+        "/product/category/dental-and-oral-care"
     ].map((path) => ({
         url: `${baseUrl}${path}`,
         lastModified: new Date(),
