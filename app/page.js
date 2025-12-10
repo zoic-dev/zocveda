@@ -1,8 +1,10 @@
 "use client";
 
 import AyurvedicCounters from "@/components/AyurvedicCounters";
+import FAQComponent from "@/components/FAQComponent";
 import SimpleSlider from "@/components/SimpleSlider";
 import TestimonialSlider from "@/components/TestimonialSlider";
+import { PAGE_FAQS } from "@/data/faqsdata";
 import { Button, Container, Grid, Stack, Typography, Card } from "@mui/material";
 import Link from "next/link";
 
@@ -10,65 +12,64 @@ export const productCategories = [
   {
     label: "Digestive Care",
     img: "/categories/digestive-care.png",
-    link: "/products/category/digestive-care",
+    link: "/product/category/digestive-care",
   },
   {
     label: "Pain & Bone Care",
     img: "/categories/pain-and-bone-care.png",
-    link: "/products/category/pain-and-bone-care",
+    link: "/product/category/pain-and-bone-care",
   },
   {
     label: "Mental & Sleep Care",
     img: "/categories/mental-and-sleep-care.png",
-    link: "/products/category/mental-and-sleep-care",
+    link: "/product/category/mental-and-sleep-care",
   },
   {
     label: "Men's Health",
     img: "/categories/mens-health.png",
-    link: "/products/category/mens-health",
+    link: "/product/category/mens-health",
   },
   {
     label: "Women's Health",
     img: "/categories/womens-health.png",
-    link: "/products/category/womens-health",
+    link: "/product/category/womens-health",
   },
   {
     label: "Hair & Skin Care",
     img: "/categories/hair-and-skin-care.png",
-    link: "/products/category/hair-and-skin-care",
+    link: "/product/category/hair-and-skin-care",
   },
   {
     label: "Kids Health",
     img: "/categories/kids-health.png",
-    link: "/products/category/kids-health",
+    link: "/product/category/kids-health",
   },
   {
     label: "Detox & Cleaning Wellness",
     img: "/categories/detox-and-cleaning-wellness.png",
-    link: "/products/category/detox-and-cleaning-wellness",
+    link: "/product/category/detox-and-cleaning-wellness",
   },
   {
     label: "Respiratory Care",
     img: "/categories/respiratory-care.png",
-    link: "/products/category/respiratory-care",
+    link: "/product/category/respiratory-care",
   },
   {
     label: "Diabetes & Metabolic Wellness",
     img: "/categories/diabetes-and-metabolic-wellness.png",
-    link: "/products/category/diabetes-and-metabolic-wellness",
+    link: "/product/category/diabetes-and-metabolic-wellness",
   },
   {
     label: "Kidney & Urinary Care",
     img: "/categories/kidney-and-urinary-care.png",
-    link: "/products/category/kidney-and-urinary-care",
+    link: "/product/category/kidney-and-urinary-care",
   },
   {
     label: "Dental & Oral Care",
     img: "/categories/dental-and-oral-care.png",
-    link: "/products/category/dental-and-oral-care",
+    link: "/product/category/dental-and-oral-care",
   },
 ];
-
 
 const whyChoose = [
   { img: "/choose/experience.png", label: "Since 1990" },
@@ -226,7 +227,7 @@ export default function Home() {
         </Stack>
 
         {/* Why Choose Us Section */}
-        <Stack spacing={6} sx={{ py: 10, backgroundColor: "#F3FFF8" }}>
+        <Stack spacing={6} sx={{ py: 5, backgroundColor: "#F3FFF8" }}>
           <Typography variant="h4" fontWeight={700} textAlign="center">
             Why Choose Zocveda?
           </Typography>
@@ -256,12 +257,16 @@ export default function Home() {
       </Container>
 
       {/* Testimonials */}
-      <Stack spacing={8} sx={{ pt: 10, backgroundColor: "#FFF9F3" }}>
+      <Stack spacing={8} sx={{ pt: 5, backgroundColor: "#FFF9F3" }}>
         <Typography variant="h4" fontWeight={700} textAlign="center">
           What Our Partners Say
         </Typography>
         <TestimonialSlider />
       </Stack>
+
+      <Container>
+        <FAQComponent faqs={PAGE_FAQS.home}/>
+      </Container>
     </>
   );
 }

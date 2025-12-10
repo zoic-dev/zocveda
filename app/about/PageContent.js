@@ -1,7 +1,7 @@
 "use client";
 
-import FAQComponent from "@/components/FAQComponent";
-import { PAGE_FAQS } from "@/data/faqsdata";
+// import FAQComponent from "@/components/FAQComponent";
+// import { PAGE_FAQS } from "@/data/faqsdata";
 import { Box, Container, Typography, Grid, Card, CardContent, Button } from "@mui/material";
 import Link from "next/link";
 
@@ -126,7 +126,7 @@ export default function PageContent() {
                 </Grid>
 
                 {/* FAQs */}
-                <FAQComponent faqs={PAGE_FAQS.about} />
+                {/* <FAQComponent faqs={PAGE_FAQS.about} /> */}
 
             </Container>
         </Box>

@@ -140,7 +140,7 @@ export default function PageContent({ initialProduct, slug }) {
                                     {categories.map((cat) => (
                                         <Link
                                             key={cat.id}
-                                            href={`/products/category/${cat.slug}/${cat.id}`}
+                                            href={`/product/category/${cat.slug}/${cat.id}`}
                                             passHref
                                             style={{ textDecoration: "none" }}
                                         >

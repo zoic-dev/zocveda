@@ -7,7 +7,7 @@ const statsData = [
     { label: "Ayurvedic Products", value: 450 },
     { label: "Franchise Partners", value: 5000 },
     { label: "Years of Expertise", value: 35 },
-    { label: "Formulations", value: 50 },
+    { label: "Formulations", value: 300 },
 ];
 
 export default function StatsSection() {

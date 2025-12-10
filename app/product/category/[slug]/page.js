@@ -1,8 +1,10 @@
-// app/products/category/[slug]/page.jsx
+// app/product/category/[slug]/page.jsx
 import { Box, Grid, Card, CardMedia, CardContent, Typography, Container } from "@mui/material";
 import Link from "next/link";
 import { fetchProductsBySubcategories } from "@/lib/fetchProductsBySubcategories";
 import { mainCategoryMap } from "@/app/api/products/category/[slug]/route";
+import FAQComponent from "@/components/FAQComponent";
+import { PAGE_FAQS } from "@/data/faqsdata";
 
 export const revalidate = 60; // ISR: regenerate every 60 seconds
 
@@ -32,7 +34,7 @@ export default async function CategoryPage({ params }) {
             <Grid container spacing={4}>
                 {products.map((product) => (
                     <Grid key={product.id} size={{ xs: 12, sm: 4, md: 3 }}>
-                        <Link href={`/products/${product.slug}`} passHref>
+                        <Link href={`/product/${product.slug}`} passHref>
                             <Card
                                 sx={{
                                     height: "100%",
@@ -94,6 +96,8 @@ export default async function CategoryPage({ params }) {
                     </Grid>
                 ))}
             </Grid>
+
+            <FAQComponent faqs={PAGE_FAQS[slug] || []} />
         </Container>
     );
 }

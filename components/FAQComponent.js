@@ -1,42 +1,49 @@
 import React from "react";
-import { Box, Typography, Paper, Stack, Divider } from "@mui/material";
+import {
+    Box,
+    Typography,
+    Accordion,
+    AccordionSummary,
+    AccordionDetails
+} from "@mui/material";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
-export default function FAQComponent({ faqs = [] }) {
+// Pass PRIMARY from parent or set a fallback
+export default function FAQComponent({ faqs = [], PRIMARY = "#1F6A36" }) {
     return (
-        <Box sx={{ my: 4 }}>
+        <Box sx={{ my: 6 }}>
             {/* Section Title */}
-            <Typography variant="h6" sx={{ mb: 2, fontWeight: 800, color: "#1F6A36" }}>
+            <Typography
+                variant="h5"
+                sx={{ color: PRIMARY, fontWeight: 800, mb: 2 }}
+            >
                 Frequently Asked Questions
             </Typography>
 
-            {/* FAQ List Container */}
-            <Paper
-                elevation={0}
-                sx={{ border: "1px solid rgba(0,0,0,0.08)", borderRadius: 2, p: 2 }}
-            >
-                <Stack spacing={1}>
-                    {faqs.map((item, idx) => (
-                        <Box
-                            key={idx}
-                            sx={{
-                                p: 2,
-                                borderRadius: 1,
-                                bgcolor: idx % 2 === 0 ? "transparent" : "rgba(0,0,0,0.03)",
-                            }}
-                        >
-                            <Typography sx={{ fontWeight: 700, fontSize: 15 }}>
-                                {item.q}
-                            </Typography>
+            {/* FAQ Accordion List */}
+            {faqs.map((f, idx) => (
+                <Accordion
+                    key={idx}
+                    sx={{
+                        mb: 1,
+                        borderRadius: 2,
+                        overflow: "hidden",
+                        boxShadow: "0px 1px 3px rgba(0,0,0,0.1)",
+                    }}
+                >
+                    <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                        <Typography sx={{ fontWeight: 700, fontSize: 15 }}>
+                            {f.q}
+                        </Typography>
+                    </AccordionSummary>
 
-                            <Typography sx={{ mt: 0.5, color: "#444", fontSize: 14 }}>
-                                {item.a}
-                            </Typography>
-
-                            {idx !== faqs.length - 1 && <Divider sx={{ mt: 1.5 }} />}
-                        </Box>
-                    ))}
-                </Stack>
-            </Paper>
+                    <AccordionDetails>
+                        <Typography sx={{ color: "#444", fontSize: 14 }}>
+                            {f.a}
+                        </Typography>
+                    </AccordionDetails>
+                </Accordion>
+            ))}
         </Box>
     );
 }

@@ -11,51 +11,59 @@ import {
     IconButton,
 } from "@mui/material";
 import Link from "next/link";
-import { Email, Facebook, LinkedIn, LocationPin, Phone, X, YouTube } from "@mui/icons-material";
+import { Email, Facebook, LinkedIn, LocationPin, Phone, Pinterest, X, YouTube } from "@mui/icons-material";
 
 const productLinks1 = [
     {
-        label: 'Tablets',
-        href: '/tablets'
+        label: 'Digestive Care',
+        href: '/product/category/digestive-care'
     },
     {
-        label: 'Capsules',
-        href: '/capsules'
+        label: 'Pain & Bone Care',
+        href: '/product/category/pain-and-bone-care'
     },
     {
-        label: 'Syrup',
-        href: '/syrup'
+        label: 'Mental & Sleep Care',
+        href: '/product/category/mental-and-sleep-care'
     },
     {
-        label: 'Injectables',
-        href: '/injectables'
+        label: "Men's Health",
+        href: '/product/category/mens-health'
     },
     {
-        label: 'Ointments',
-        href: '/ointments'
+        label: "Women's Health",
+        href: '/product/category/womens-health'
+    },
+    {
+        label: 'Hair and Skin Care',
+        href: '/product/category/hair-and-skin-care'
     }
 ];
 
 const productLinks2 = [
     {
-        label: 'Protein',
-        href: '/protein'
+        label: 'Kids health',
+        href: '/product/category/kids-health'
     },
     {
-        label: 'Energy Drink',
-        href: '/energy-drink'
+        label: 'Detox & Cleaning Wellness',
+        href: '/product/category/detox-and-cleaning-wellness'
     },
     {
-        label: 'Gyanaec Range',
-        href: '/gyanaec-range'
+        label: 'Respiratory Care',
+        href: '/product/category/respiratory-care'
     },
     {
-        label: 'Herbal',
-        href: '/herbal'
+        label: 'Diabetes & Metabolic Wellness',
+        href: '/product/category/diabetes-and-metabolic-wellness'
     },
     {
-        label: 'Soap',
-        href: '/soap'
+        label: 'Kidney & Urinary Care',
+        href: '/product/category/kidney-and-urinary-care'
+    },
+    {
+        label: 'Dental & Oral Care',
+        href: '/product/category/dental-and-oral-care'
     }
 ];
 
@@ -63,6 +71,10 @@ const additionalLinks = [
     {
         label: 'About Us',
         href: '/about'
+    },
+    {
+        label: 'Contact Us',
+        href: '/contact'
     },
     {
         label: 'Blog',
@@ -73,8 +85,8 @@ const additionalLinks = [
         href: '/frequently-asked-questions'
     },
     {
-        label: 'PCD Pharma',
-        href: '/pcd-franchise'
+        label: 'PCD Franchise',
+        href: '/ayurvedic-pcd-pharma-franchise'
     },
     {
         label: 'Third Party Manufacturing',
@@ -94,10 +106,10 @@ const Footer = () => {
             }}
         >
             <Container>
-                <Grid container spacing={4}>
-                    
-                {/* Stay With Us */}
-                    <Grid size={{ xs: 12, sm: 6, md: 4 }}>
+                <Grid container spacing={8} >
+
+                    {/* Contact Us */}
+                    <Grid size={{ xs: 12, sm: 6, md: 3 }}>
                         <Typography
                             variant="h6"
                             sx={{
@@ -115,7 +127,7 @@ const Footer = () => {
 
                                 <MUILink
                                     component={Link}
-                                    href={"mailto:info@biozoc.com"}
+                                    href={"mailto:info@zocveda.com"}
                                     underline="none"
                                     sx={{
                                         color: "#acacac",
@@ -124,7 +136,7 @@ const Footer = () => {
                                         "&:hover": { color: "#E52C86" },
                                     }}
                                 >
-                                    info@biozoc.com
+                                    info@zocveda.com
                                 </MUILink>
                             </Stack>
 
@@ -156,7 +168,7 @@ const Footer = () => {
                                         color: "#acacac",
                                         fontSize: 16,
                                         transition: "0.3s",
-                                        lineHeight:'1.25',
+                                        lineHeight: '1.25',
                                         "&:hover": { color: "#E52C86" },
                                     }}
                                 >
@@ -167,7 +179,7 @@ const Footer = () => {
 
                         <Stack direction="row" spacing={1} justifyContent="start" mt={3}>
                             <IconButton
-                                href="https://www.facebook.com/biozoc/"
+                                href="https://www.facebook.com/Zocveda-Wellness-104944051707522"
                                 target="_blank"
                                 sx={{
                                     color: "#fff",
@@ -178,7 +190,7 @@ const Footer = () => {
                                 <Facebook />
                             </IconButton>
                             <IconButton
-                                href="https://twitter.com/biozoc"
+                                href="https://twitter.com/VivekSi37745896"
                                 target="_blank"
                                 sx={{
                                     color: "#fff",
@@ -189,18 +201,18 @@ const Footer = () => {
                                 <X />
                             </IconButton>
                             <IconButton
-                                href="https://www.youtube.com/channel/UCE2PX3YCrJzwWMxkNnkdXxw"
+                                href="https://in.pinterest.com/zocveda141/_saved/"
                                 target="_blank"
                                 sx={{
                                     color: "#fff",
-                                    backgroundColor: "#FF0000",
-                                    "&:hover": { backgroundColor: "#FF0000" },
+                                    backgroundColor: "#E60023",
+                                    "&:hover": { backgroundColor: "#E60023" },
                                 }}
                             >
-                                <YouTube />
+                                <Pinterest />
                             </IconButton>
                             <IconButton
-                                href="https://www.linkedin.com/in/biozoc-pharma-53b4a6193/"
+                                href="https://www.linkedin.com/in/Zocveda"
                                 target="_blank"
                                 sx={{
                                     color: "#fff",
@@ -212,9 +224,9 @@ const Footer = () => {
                             </IconButton>
                         </Stack>
                     </Grid>
-                    
-                    {/* Services */}
-                    <Grid size={{ xs: 12, sm: 6, md: 4 }}>
+
+                    {/* Product Categories */}
+                    <Grid size={{ xs: 12, sm: 6, md: 6 }}>
                         <Typography
                             variant="h6"
                             sx={{
@@ -302,8 +314,8 @@ const Footer = () => {
                         </Stack>
                     </Grid> */}
 
-                    {/* Company */}
-                    <Grid size={{ xs: 12, sm: 6, md: 4 }}>
+                    {/* Company Links */}
+                    <Grid size={{ xs: 12, sm: 6, md: 3 }}>
                         <Typography
                             variant="h6"
                             sx={{ letterSpacing: 1, fontWeight: 500, mb: 2, color: "#E52C86" }}
@@ -337,7 +349,7 @@ const Footer = () => {
                 sx={{
                     mt: 6,
                     mb: 2,
-                    borderColor: "rgba(255,255,255,0.1)",
+                    borderColor: "rgba(255, 255, 255, 0.25)",
                     width: "80%",
                     mx: "auto",
                 }}

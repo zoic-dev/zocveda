@@ -33,7 +33,14 @@ async function fetchAllProducts(wpUrl) {
 ============================================================================ */
 async function fetchAllCategories(wpUrl) {
     const response = await fetch(
-        `${wpUrl}/wp-json/wp/v2/products/categories?per_page=100&_fields=slug,id`,
+        `${wpUrl}/wp-json/wc/v2/products/categories?per_page=100&_fields=slug,id`,
+        {
+            headers: {
+                Authorization: `Basic ${Buffer.from(
+                    `${process.env.WP_USERNAME}:${process.env.WP_APP_PASSWORD}`
+                ).toString("base64")}`,
+            },
+        },
         { cache: "no-store" }
     );
 
@@ -66,7 +73,7 @@ export default async function sitemap() {
         "/about",
         "/contact",
         "/products",
-        "/pcd-franchise",
+        "/ayurvedic-pcd-pharma-franchise",
         "/third-party-manufacturing",
     ].map((path) => ({
         url: `${baseUrl}${path}`,
@@ -77,7 +84,7 @@ export default async function sitemap() {
        4. Dynamic Product URLs
     ------------------------------------------------------ */
     const productUrls = products.map((product) => ({
-        url: `${baseUrl}/products/${product.slug}`,
+        url: `${baseUrl}/product/${product.slug}`,
         lastModified: product.modified || new Date(),
     }));
 
@@ -85,7 +92,7 @@ export default async function sitemap() {
        5. Dynamic Category URLs
     ------------------------------------------------------ */
     const categoryUrls = categories.map((category) => ({
-        url: `${baseUrl}/products/category/${category.slug}/${category.id}`,
+        url: `${baseUrl}/product/category/${category.slug}/${category.id}`,
         lastModified: new Date(),
     }));
 
