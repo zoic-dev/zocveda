@@ -11,7 +11,6 @@ export default function ProductImages({ images = [] }) {
   return (
     <>
       {/* Main Image Container */}
-      {/* Main Image Container */}
       <Box
         sx={{
           width: "100%",
@@ -28,7 +27,7 @@ export default function ProductImages({ images = [] }) {
         onClick={() => setLightboxOpen(true)}
       >
         <img
-          src={main.src}
+          src={main.src || "/placeholder.jpg"}
           alt="Product"
           style={{
             maxWidth: "100%",
