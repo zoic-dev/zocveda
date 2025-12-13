@@ -106,6 +106,19 @@ export default function PostsList({ initialPage = 1 }) {
                         {post.title}
                       </Typography>
 
+                      {/* BLOG DATE */}
+                      <Typography
+                        variant="caption"
+                        color="text.secondary"
+                        sx={{ display: "block"}}
+                      >
+                        {new Date(post.date).toLocaleDateString("en-IN", {
+                          year: "numeric",
+                          month: "long",
+                          day: "numeric",
+                        })}
+                      </Typography>
+
                       <Typography
                         variant="body2"
                         color="text.secondary"
