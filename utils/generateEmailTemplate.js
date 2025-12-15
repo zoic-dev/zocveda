@@ -148,7 +148,7 @@ const generateEmailTemplate = (name, email, phone, city, message) => {
                                     <tr>
                                       <td style="padding-right: 0px;padding-left: 0px;" align="center">
     
-                                        <img align="center" border="0" src="https://www.biozoc.com/wp-content/uploads/2018/09/BioZoic.png" alt="" title="" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 116.67px;"
+                                        <img align="center" border="0" src="https://cms.zocveda.com/wp-content/uploads/2025/11/Untitled-1.png" alt="Zocveda Wellness" title="Zocveda" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 116.67px;"
                                           width="116.67" />
     
                                       </td>
@@ -214,7 +214,7 @@ const generateEmailTemplate = (name, email, phone, city, message) => {
                                     <p style="line-height: 140%;">We have recieved your request. Our team will get back to you at the earliest.</p>
                                     <p style="line-height: 140%;">&nbsp;</p>
                                     <p style="line-height: 140%;">&nbsp;</p>
-                                    <p style="line-height: 140%;">Thanks &amp; Regards<br>Biozoc</p>
+                                    <p style="line-height: 140%;">Thanks &amp; Regards<br>Zocveda Wellness</p>
                                   </div>
     
                                 </td>

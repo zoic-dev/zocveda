@@ -110,7 +110,7 @@ export default function PostsList({ initialPage = 1 }) {
                       <Typography
                         variant="caption"
                         color="text.secondary"
-                        sx={{ display: "block"}}
+                        sx={{ display: "block" }}
                       >
                         {new Date(post.date).toLocaleDateString("en-IN", {
                           year: "numeric",
