@@ -67,7 +67,7 @@ export default function BlogContent({ post, related }) {
 
                 {/* Title */}
                 <Typography
-                    variant="h3"
+                    variant="h1"
                     sx={{
                         fontWeight: 700,
                         mb: 2,

@@ -5,6 +5,7 @@ import "./fonts.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Script from "next/script";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata = {
   title: "Zocveda Wellness | Leading Pharma & Nutraceutical Manufacturer in India",
@@ -68,6 +69,9 @@ export default function RootLayout({ children }) {
         <Navbar />
         <main>{children}</main>
         <Footer />
+
+        {/* Whatsapp Button */}
+        <WhatsAppButton />
 
         {/* ✅ Tawk.to Script */}
         <Script id="tawk-to" strategy="afterInteractive">
