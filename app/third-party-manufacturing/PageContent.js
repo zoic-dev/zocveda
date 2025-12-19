@@ -248,7 +248,7 @@ export default function PageContent() {
                 </Typography>
                 <Button
                     component="a"
-                    href={`${process.env.NEXT_PUBLIC_SITE_URL}/wp-content/uploads/2019/05/BIOZOC-PCD-Newfinal-converted.pdf`}
+                    href={`${process.env.NEXT_PUBLIC_SITE_URL}/wp-content/uploads/2021/03/ZOCVEDABROCHURE1.pdf`}
                     download
                     target="_blank"
                     rel="noopener noreferrer"
