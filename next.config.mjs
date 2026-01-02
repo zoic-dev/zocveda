@@ -24,7 +24,12 @@ const nextConfig = {
         destination: "/third-party-manufacturing",
         permanent: true
       },
-      
+      {
+        source: "/ayurvedic-pcd-company-in-goa",
+        destination: "/blog/ayurvedic-pcd-company-in-goa",
+        permanent: true
+      }
+
     ]
   }
 };
