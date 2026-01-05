@@ -10,8 +10,36 @@ export async function POST(request) {
             phone,
             email,
             city,
-            message
+            message,
+            captchaToken
         } = body;
+
+        if (!captchaToken) {
+            return Response.json(
+                { message: "Captcha token missing" },
+                { status: 400 }
+            );
+        }
+
+        const captchaResponse = await fetch(
+            "https://www.google.com/recaptcha/api/siteverify",
+            {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/x-www-form-urlencoded",
+                },
+                body: `secret=${process.env.RECAPTCHA_SECRET_KEY}&response=${captchaToken}`,
+            }
+        );
+
+        const captchaResult = await captchaResponse.json();
+
+        if (!captchaResult.success) {
+            return Response.json(
+                { message: "Captcha verification failed" },
+                { status: 403 }
+            );
+        }
 
         const transporter = nodemailer.createTransport({
             host: "smtp.hostinger.com",
