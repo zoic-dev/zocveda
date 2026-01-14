@@ -2019,6 +2019,1301 @@ const nextConfig = {
         destination: "/blog/ayurvedic-medicine-manufacturers-in-amritsar",
         permanent: true
       },
+      {
+        source: "/franchise/best-ayurvedic-medicine-manufacturers-in-andhra-pradesh",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-andhra-pradesh",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-ayurvedic-medicine-manufacturers-in-bangalore",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-bangalore",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-ayurvedic-medicine-manufacturers-in-haryana",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-haryana",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-ayurvedic-medicine-manufacturers-in-himachal-pradesh",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-himachal-pradesh",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-ayurvedic-medicine-manufacturers-in-jaipur",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-jaipur",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-ayurvedic-medicine-manufacturers-in-kanpur",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-kanpur",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-ayurvedic-medicine-manufacturers-in-pune",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-pune",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-ayurvedic-medicine-manufacturers-in-rajasthan",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-rajasthan",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-ayurvedic-medicine-manufacturers-in-tamil-nadu",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-tamil-nadu",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-ayurvedic-medicine-wholesale-business-in-west-bengal",
+        destination: "/blog/ayurvedic-medicine-distributors-in-west-bengal",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-ayurvedic-pcd-company-in-amritsar",
+        destination: "/blog/ayurvedic-pcd-company-in-amritsar",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-ayurvedic-pcd-company-in-bhopal",
+        destination: "/blog/ayurvedic-pcd-company-in-bhopal",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-ayurvedic-pcd-company-in-coimbatore",
+        destination: "/blog/ayurvedic-pcd-company-in-coimbatore",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-ayurvedic-pcd-company-in-indore",
+        destination: "/blog/ayurvedic-pcd-company-in-indore",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-ayurvedic-pcd-company-in-jabalpur",
+        destination: "/blog/ayurvedic-pcd-company-in-jabalpur",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-ayurvedic-pcd-company-in-kolkata",
+        destination: "/blog/ayurvedic-pcd-company-in-kolkata",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-ayurvedic-pcd-company-in-nagpur",
+        destination: "/blog/ayurvedic-pcd-company-in-nagpur",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-ayurvedic-pcd-company-in-patna",
+        destination: "/blog/ayurvedic-pcd-company-in-patna",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-ayurvedic-pcd-company-in-punjab",
+        destination: "/blog/ayurvedic-pcd-company-in-punjab",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-ayurvedic-pcd-company-in-surat",
+        destination: "/blog/ayurvedic-pcd-company-in-surat",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-ayurvedic-pcd-franchise-companies-in-cuttack",
+        destination: "/blog/ayurvedic-pcd-company-in-cuttack",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-ayurvedic-pcd-franchise-companies-in-guwahati",
+        destination: "/blog/ayurvedic-pcd-company-in-guwahati",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-ayurvedic-pcd-franchise-company-in-aurangabad",
+        destination: "/blog/ayurvedic-pcd-company-in-aurangabad",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-ayurvedic-pcd-franchise-company-in-kochi",
+        destination: "/blog/ayurvedic-pcd-company-in-kochi",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-ayurvedic-pcd-franchise-company-in-ranchi",
+        destination: "/blog/ayurvedic-pcd-company-in-ranchi",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-ayurvedic-pcd-franchise-in-howrah",
+        destination: "/blog/ayurvedic-pcd-company-in-howrah",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-ayurvedic-pcd-franchise-in-hyderabad",
+        destination: "/blog/ayurvedic-pcd-company-in-hyderabad",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-ayurvedic-pcd-franchise-in-panipat",
+        destination: "/blog/ayurvedic-pcd-company-in-panipat",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-ayurvedic-pharma-company-in-chandigarh",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-chandigarh",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-ayurvedic-pharma-franchise-in-nashik",
+        destination: "/blog/ayurvedic-pcd-company-in-nashik",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-ayurvedic-products-manufacturing-company-in-bhopal",
+        destination: "/blog/ayurvedic-pcd-company-in-bhopal",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-ayurvedic-vitamin-c-franchise-in-india",
+        destination: "/blog/ayurvedic-vitamin-c-serum-franchise-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-herbal-ayurvedic-medicine-manufacturers-in-west-bengal",
+        destination: "/blog/herbal-ayurvedic-medicine-manufacturers-in-west-bengal",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-herbal-franchise-company-in-guwahati",
+        destination: "/blog/ayurvedic-pcd-company-in-guwahati",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-herbal-pcd-company-in-punjab",
+        destination: "/blog/ayurvedic-pcd-company-in-punjab",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-herbal-pcd-franchise-company-in-agra",
+        destination: "/blog/ayurvedic-pcd-company-in-agra",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-herbal-pcd-franchise-company-in-warangal",
+        destination: "/blog/ayurvedic-pcd-company-in-warangal",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-pcd-company-in-madhya-pradesh",
+        destination: "/blog/ayurvedic-pcd-company-in-madhya-pradesh",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-pcd-franchise-company-in-kolkata",
+        destination: "/blog/ayurvedic-pcd-company-in-kolkata",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-pharma-franchise-company-in-nashik",
+        destination: "/blog/franchise/best-pharma-franchise-company-in-nashik",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-top-10-ayurvedic-pcd-franchise-in-rajasthan",
+        destination: "/blog/ayurvedic-pcd-company-in-rajasthan",
+        permanent: true
+      },
+      {
+        source: "/franchise/best-v",
+        destination: "/blog/ayurvedic-medicine-distributors-in-kerala",
+        permanent: true
+      },
+      {
+        source: "/franchise/chandigarh-based-ayurvedic-pcd-company",
+        destination: "/blog/ayurvedic-pcd-company-in-chandigarh",
+        permanent: true
+      },
+      {
+        source: "/franchise/chyawanprash-manufacturers",
+        destination: "/blog/chawyanprash-manufacturers-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/chyawanprash-manufacturing-companies",
+        destination: "/blog/chawyanprash-manufacturers-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/contract-manufacturers-in-india",
+        destination: "/blog/ayurvedic-contract-manufacturing-company-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/contract-manufacturing-companies-in-india",
+        destination: "/blog/ayurvedic-contract-manufacturing-company-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/cough-syrup-brands-in-india",
+        destination: "/blog/cough-syrup-manufacturers-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/cough-syrup-manufacturing-companies-in-india",
+        destination: "/blog/cough-syrup-manufacturers-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/cough-syrup-producers-in-india",
+        destination: "/blog/cough-syrup-manufacturers-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/derma-product-manufacturers-in-india",
+        destination: "/blog/ayurvedic-vitamin-c-serum-manufacturers-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/distributor-of-ayurvedic-medicines-in-bihar",
+        destination: "/blog/ayurvedic-medicine-distributors-in-bihar",
+        permanent: true
+      },
+      {
+        source: "/franchise/hand-sanitizer-manufacturers-in-india",
+        destination: "/blog/ayurvedic-hand-sanitizer-manufacturers-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/hand-sanitizer-manufacturing-companies-in-india",
+        destination: "/blog/ayurvedic-hand-sanitizer-manufacturers-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-ayurvedic-medicine-in-hyderabad",
+        destination: "/blog/ayurvedic-medicine-distributors-in-hyderabad",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-and-ayurvedic-medicine-in-amritsar",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-amritsar",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-and-ayurvedic-medicine-in-chennai",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-chennai",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-and-ayurvedic-medicine-in-coimbatore",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-coimbatore",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-and-ayurvedic-medicine-in-indore",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-indore",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-and-ayurvedic-medicine-in-karnal",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-karnal",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-and-ayurvedic-medicine-in-lucknow",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-lucknow",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-and-ayurvedic-medicine-in-pune",
+        destination: "/blog/ayurvedic-medicine-distributors-in-pune",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-ayurvedic-medicine-manufacturer-from-delhi",
+        destination: "/blog/ayurvedic-medicine-manufacturer-in-delhi",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-ayurvedic-medicine-manufacturers-in-west-bengal",
+        destination: "/blog/herbal-ayurvedic-medicine-manufacturers-in-west-bengal",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-ayurvedic-pcd-franchise-in-arunachal-pradesh",
+        destination: "/blog/ayurvedic-pcd-company-in-arunachal-pradesh",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-ayurvedic-pcd-franchise-in-haryana",
+        destination: "/blog/ayurvedic-pcd-company-in-haryana",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-companies-in-india",
+        destination: "/blog/top-ayurvedic-companies-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-franchise-in-haridwar",
+        destination: "/blog/ayurvedic-pcd-company-in-haridwar",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-hand-sanitizer-brands-in-india",
+        destination: "/blog/ayurvedic-hand-sanitizer-manufacturers-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-medicine-business-opportunity",
+        destination: "/blog/ayurvedic-medicine-business-opportunity-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-medicine-manufacturers-in-india",
+        destination: "/blog/ayurvedic-herbal-medicine-manufacturers-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-medicine-manufacturing-companies-in-india",
+        destination: "/blog/ayurvedic-herbal-medicine-manufacturers-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-pcd-company-in-andhra-pradesh",
+        destination: "/blog/ayurvedic-pcd-company-in-andhra-pradesh",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-pcd-company-in-gaya",
+        destination: "/blog/ayurvedic-pcd-company-in-gaya",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-pcd-company-in-orissa",
+        destination: "/blog/ayurvedic-pcd-company-in-orissa",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-pcd-company-in-tamil-nadu",
+        destination: "/blog/ayurvedic-pcd-company-in-tamil-nadu",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-pcd-franchise-company-in-baddi",
+        destination: "/blog/ayurvedic-pcd-company-in-baddi",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-pcd-franchise-in-coimbatore",
+        destination: "/blog/ayurvedic-pcd-company-in-coimbatore",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-pcd-franchise-in-daman-diu",
+        destination: "/blog/ayurvedic-pcd-company-in-daman-diu",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-pcd-franchise-in-indore",
+        destination: "/blog/ayurvedic-pcd-company-in-indore",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-pcd-franchise-in-saharanpur",
+        destination: "/blog/ayurvedic-pcd-company-in-saharanpur",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-pcd-franchise-opportunities-in-kerala",
+        destination: "/blog/ayurvedic-pcd-company-in-kerala",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-pcd-pharma-franchise-in-cuttack",
+        destination: "/blog/ayurvedic-pcd-company-in-cuttack",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-pcd-pharma-franchise-in-jind",
+        destination: "/blog/ayurvedic-pcd-company-in-jind",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-pcd-pharma-in-gwalior",
+        destination: "/blog/ayurvedic-pcd-company-in-gwalior",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-pharma-franchise-pcd-in-hisar",
+        destination: "/blog/ayurvedic-pcd-company-in-hisar",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-product-business-in-west-bengal",
+        destination: "/blog/ayurvedic-medicine-distributors-in-west-bengal",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-products-exporters-manufacturers-suppliers-in-indore",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-indore",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-third-party-manufacturing",
+        destination: "/blog/third-party-manufacturing-of-ayurvedic-products",
+        permanent: true
+      },
+      {
+        source: "/franchise/how-to-start-ayurvedic-marketing-company",
+        destination: "/blog/how-to-start-ayurvedic-marketing-company",
+        permanent: true
+      },
+      {
+        source: "/franchise/how-to-start-ayurvedic-pharmacy",
+        destination: "/blog/how-to-start-ayurvedic-marketing-company",
+        permanent: true
+      },
+      {
+        source: "/franchise/how-to-start-ayurvedic-herbal-unani-company",
+        destination: "/blog/how-to-start-ayurvedic-marketing-company",
+        permanent: true
+      },
+      {
+        source: "/franchise/immunity-booster-products-manufacturers-in-india",
+        destination: "/blog/immunity-booster-manufacturers-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/immunity-boosters-manufacturing-companies-in-india",
+        destination: "/blog/immunity-booster-manufacturers-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/immunity-boosters-manufacturing-in-india",
+        destination: "/blog/immunity-booster-manufacturers-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/in-pan-india",
+        destination: "/blog/ayurvedic-medicine-distributors-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/leading-100-ayurvedic-companies-in-india-2022",
+        destination: "/blog/top-100-ayurvedic-companies-in-india-2022",
+        permanent: true
+      },
+      {
+        source: "/franchise/leading-ayurvedic-medicine-distributor-in-chennai",
+        destination: "/blog/ayurvedic-medicine-distributors-in-chennai",
+        permanent: true
+      },
+      {
+        source: "/franchise/leading-ayurvedic-medicine-distributors-in-kerala",
+        destination: "/blog/ayurvedic-medicine-distributors-in-kerala",
+        permanent: true
+      },
+      {
+        source: "/franchise/leading-ayurvedic-medicine-distributors-in-west-bengal",
+        destination: "/blog/ayurvedic-medicine-distributors-in-kerala",
+        permanent: true
+      },
+      {
+        source: "/franchise/leading-ayurvedic-medicine-manufacturer-in-ahmedabad",
+        destination: "/blog/ayurvedic-medicine-manufacturer-in-ahmedabad",
+        permanent: true
+      },
+      {
+        source: "/franchise/leading-ayurvedic-medicine-manufacturers-in-andhra-pradesh",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-andhra-pradesh",
+        permanent: true
+      },
+      {
+        source: "/franchise/leading-ayurvedic-medicine-manufacturers-in-haryana",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-haryana",
+        permanent: true
+      },
+      {
+        source: "/franchise/leading-ayurvedic-medicine-manufacturers-in-himachal-pradesh",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-himachal-pradesh",
+        permanent: true
+      },
+      {
+        source: "/franchise/leading-ayurvedic-medicine-manufacturers-in-kanpur",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-kanpur",
+        permanent: true
+      },
+      {
+        source: "/franchise/leading-ayurvedic-medicine-manufacturers-in-pune",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-pune",
+        permanent: true
+      },
+      {
+        source: "/franchise/leading-ayurvedic-medicine-manufacturers-in-rajasthan",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-rajasthan",
+        permanent: true
+      },
+      {
+        source: "/franchise/leading-ayurvedic-medicine-manufacturers-in-tamil-nadu",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-tamil-nadu",
+        permanent: true
+      },
+      {
+        source: "/franchise/leading-ayurvedic-pcd-companies-in-baddi",
+        destination: "/blog/ayurvedic-pcd-company-in-baddi",
+        permanent: true
+      },
+      {
+        source: "/franchise/leading-ayurvedic-pcd-companies-in-gaya",
+        destination: "/blog/ayurvedic-pcd-company-in-gaya",
+        permanent: true
+      },
+      {
+        source: "/franchise/leading-ayurvedic-pcd-company",
+        destination: "/blog/ayurvedic-pcd-company-in-bhopal",
+        permanent: true
+      },
+      {
+        source: "/franchise/leading-ayurvedic-pcd-company-in-amritsar",
+        destination: "/blog/ayurvedic-pcd-company-in-amritsar",
+        permanent: true
+      },
+      {
+        source: "/franchise/leading-ayurvedic-pcd-company-in-baddi",
+        destination: "/blog/ayurvedic-pcd-company-in-baddi",
+        permanent: true
+      },
+      {
+        source: "/franchise/leading-ayurvedic-pcd-company-in-indore",
+        destination: "/blog/ayurvedic-pcd-company-in-indore",
+        permanent: true
+      },
+      {
+        source: "/franchise/leading-ayurvedic-pcd-company-in-jabalpur",
+        destination: "/blog/ayurvedic-pcd-company-in-jabalpur",
+        permanent: true
+      },
+      {
+        source: "/franchise/leading-ayurvedic-pcd-company-in-kochi",
+        destination: "/blog/ayurvedic-pcd-company-in-kochi",
+        permanent: true
+      },
+      {
+        source: "/franchise/leading-ayurvedic-pcd-company-in-nagpur",
+        destination: "/blog/ayurvedic-pcd-company-in-nagpur",
+        permanent: true
+      },
+      {
+        source: "/franchise/leading-ayurvedic-pcd-company-in-patna",
+        destination: "/blog/ayurvedic-pcd-company-in-patna",
+        permanent: true
+      },
+      {
+        source: "/franchise/leading-ayurvedic-pcd-company-in-punjab",
+        destination: "/blog/ayurvedic-pcd-company-in-punjab",
+        permanent: true
+      },
+      {
+        source: "/franchise/leading-ayurvedic-pcd-company-in-surat",
+        destination: "/blog/ayurvedic-pcd-company-in-surat",
+        permanent: true
+      },
+      {
+        source: "/franchise/leading-ayurvedic-product-manufacturers-in-india",
+        destination: "/blog/ayurvedic-vitamin-c-serum-franchise-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/leading-herbal-ayurvedic-medicine-manufacturers-in-west-bengal",
+        destination: "/blog/herbal-ayurvedic-medicine-manufacturers-in-west-bengal",
+        permanent: true
+      },
+      {
+        source: "/franchise/leading-herbal-companies",
+        destination: "/blog/top-ayurvedic-companies-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/list-of-ayurvedic-companies-in-bangalore",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-bangalore",
+        permanent: true
+      },
+      {
+        source: "/franchise/list-of-ayurvedic-companies-in-chennai",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-chennai",
+        permanent: true
+      },
+      {
+        source: "/franchise/list-of-ayurvedic-companies-in-gujarat",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-gujarat",
+        permanent: true
+      },
+      {
+        source: "/franchise/list-of-ayurvedic-companies-in-maharashtra",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-maharashtra",
+        permanent: true
+      },
+      {
+        source: "/franchise/list-of-ayurvedic-medicine-manufacturers-in-chandigarh",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-chandigarh",
+        permanent: true
+      },
+      {
+        source: "/franchise/list-of-ayurvedic-medicine-suppliers-in-hyderabad",
+        destination: "/blog/ayurvedic-medicine-distributors-in-hyderabad",
+        permanent: true
+      },
+      {
+        source: "/franchise/list-of-ayurvedic-medicine-suppliers-in-kolkata",
+        destination: "/blog/ayurvedic-medicine-distributors-in-kolkata",
+        permanent: true
+      },
+      {
+        source: "/franchise/list-of-ayurvedic-pcd-companies-in-andhra-pradesh",
+        destination: "/blog/ayurvedic-pcd-company-in-andhra-pradesh",
+        permanent: true
+      },
+      {
+        source: "/franchise/list-of-top-ayurvedic-medicine-manufacturers-in-karnal",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-karnal",
+        permanent: true
+      },
+      {
+        source: "/franchise/medicine-distributors-in-pune",
+        destination: "/blog/ayurvedic-medicine-distributors-in-pune",
+        permanent: true
+      },
+      {
+        source: "/franchise/pcd-ayurvedic-company-in-chhattisgarh",
+        destination: "/blog/ayurvedic-pcd-company-in-chhattisgarh",
+        permanent: true
+      },
+      {
+        source: "/franchise/pcd-ayurvedic-company-in-daman-diu",
+        destination: "/blog/ayurvedic-pcd-company-in-daman-diu",
+        permanent: true
+      },
+      {
+        source: "/franchise/pcd-ayurvedic-company-in-ghaziabad",
+        destination: "/blog/ayurvedic-pcd-company-in-ghaziabad",
+        permanent: true
+      },
+      {
+        source: "/franchise/pcd-ayurvedic-company-in-warangal",
+        destination: "/blog/ayurvedic-pcd-company-in-warangal",
+        permanent: true
+      },
+      {
+        source: "/franchise/pcd-ayurvedic-franchise-in-gujarat",
+        destination: "/blog/ayurvedic-pcd-company-in-gujarat",
+        permanent: true
+      },
+      {
+        source: "/franchise/pcd-companies-in-ahmedabad",
+        destination: "/blog/ayurvedic-pcd-company-in-ahmedabad",
+        permanent: true
+      },
+      {
+        source: "/franchise/pcd-franchise-companies-in-chennai",
+        destination: "/blog/ayurvedic-pcd-company-in-chennai",
+        permanent: true
+      },
+      {
+        source: "/franchise/pcd-franchise-company-in-karnal",
+        destination: "/blog/ayurvedic-pcd-company-in-karnal",
+        permanent: true
+      },
+      {
+        source: "/franchise/pcd-franchise-company-in-madhya-pradesh",
+        destination: "/blog/ayurvedic-pcd-company-in-madhya-pradesh",
+        permanent: true
+      },
+      {
+        source: "/franchise/pcd-franchise-services-in-bangalore",
+        destination: "/blog/ayurvedic-pcd-company-in-bangalore",
+        permanent: true
+      },
+      {
+        source: "/franchise/pcd-franchise-services-in-mumbai",
+        destination: "/blog/ayurvedic-pcd-company-in-mumbai",
+        permanent: true
+      },
+      {
+        source: "/franchise/pcd-franchise-services-in-noida",
+        destination: "/blog/ayurvedic-pcd-company-in-noida",
+        permanent: true
+      },
+      {
+        source: "/franchise/pcd-herbal-franchise-in-gurugram",
+        destination: "/blog/ayurvedic-pcd-company-in-gurgaon",
+        permanent: true
+      },
+      {
+        source: "/franchise/pcd-pharma-ayurvedic-and-herbal-products-in-sonipat",
+        destination: "/blog/ayurvedic-pcd-company-in-sonipat",
+        permanent: true
+      },
+      {
+        source: "/franchise/pcd-pharma-franchise-in-ghaziabad",
+        destination: "/blog/ayurvedic-pcd-company-in-ghaziabad",
+        permanent: true
+      },
+      {
+        source: "/franchise/pcd-pharma-franchise-in-panipat",
+        destination: "/blog/ayurvedic-pcd-company-in-panipat",
+        permanent: true
+      },
+      {
+        source: "/franchise/pcd-pharma-franchise-in-paonta-sahib",
+        destination: "/blog/ayurvedic-pcd-company-in-ponta-sahib",
+        permanent: true
+      },
+      {
+        source: "/franchise/pcd-pharma-franchise-in-pune",
+        destination: "/blog/ayurvedic-pcd-company-in-pune",
+        permanent: true
+      },
+      {
+        source: "/franchise/pcd-pharma-franchise-siliguri",
+        destination: "/blog/ayurvedic-pcd-company-in-siliguri",
+        permanent: true
+      },
+      {
+        source: "/franchise/perfect-ayurvedic-business-opportunity",
+        destination: "/blog/ayurvedic-medicine-business-opportunity-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/pharma-companies-in-panipat",
+        destination: "/blog/ayurvedic-pcd-company-in-panipat",
+        permanent: true
+      },
+      {
+        source: "/franchise/pharma-companies-in-uttarakhand",
+        destination: "/blog/ayurvedic-pcd-company-in-uttarakhand",
+        permanent: true
+      },
+      {
+        source: "/franchise/pharma-franchise-company-in-daman-diu",
+        destination: "/blog/ayurvedic-pcd-company-in-daman-diu",
+        permanent: true
+      },
+      {
+        source: "/franchise/pharma-franchise-company-in-panipat",
+        destination: "/blog/ayurvedic-pcd-company-in-panipat",
+        permanent: true
+      },
+      {
+        source: "/franchise/pharma-franchise-pcd-in-siliguri",
+        destination: "/blog/ayurvedic-pcd-company-in-siliguri",
+        permanent: true
+      },
+      {
+        source: "/franchise/private-label-herbal-ayurvedic-pcd-franchise-in-jind",
+        destination: "/blog/ayurvedic-pcd-company-in-jind",
+        permanent: true
+      },
+      {
+        source: "/franchise/pune-herbal-ayurvedic-medicine-suppliers-and-manufacturers",
+        destination: "/blog/ayurvedic-medicine-distributors-in-pune",
+        permanent: true
+      },
+      {
+        source: "/franchise/single-herb-manufacturers-in-india",
+        destination: "/blog/single-herb-manufacturers",
+        permanent: true
+      },
+      {
+        source: "/franchise/single-herb-manufacturing-companies-in-india",
+        destination: "/blog/single-herb-manufacturers",
+        permanent: true
+      },
+      {
+        source: "/franchise/single-herb-medicine-brands-in-india",
+        destination: "/blog/single-herb-manufacturers",
+        permanent: true
+      },
+      {
+        source: "/franchise/single-herb-medicine-manufacturers-in-india",
+        destination: "/blog/single-herb-manufacturers",
+        permanent: true
+      },
+      {
+        source: "/franchise/the-best-ayurvedic-franchise-company-in-howrah",
+        destination: "/blog/ayurvedic-pcd-company-in-howrah",
+        permanent: true
+      },
+      {
+        source: "/franchise/the-best-ayurvedic-medicine-manufacturers-in-gujarat",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-gujarat",
+        permanent: true
+      },
+      {
+        source: "/franchise/the-best-ayurvedic-medicine-manufacturers-in-kerala",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-kerala",
+        permanent: true
+      },
+      {
+        source: "/franchise/the-best-ayurvedic-medicine-manufacturers-in-maharashtra",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-maharashtra",
+        permanent: true
+      },
+      {
+        source: "/franchise/the-best-ayurvedic-pcd-company-in-himachal-pradesh",
+        destination: "/blog/ayurvedic-pcd-company-in-himachal-pradesh",
+        permanent: true
+      },
+      {
+        source: "/franchise/the-best-ayurvedic-pcd-company-in-hisar",
+        destination: "/blog/ayurvedic-pcd-company-in-hisar",
+        permanent: true
+      },
+      {
+        source: "/franchise/the-best-ayurvedic-pcd-company-in-siliguri",
+        destination: "/blog/ayurvedic-pcd-company-in-siliguri",
+        permanent: true
+      },
+      {
+        source: "/franchise/the-best-ayurvedic-pcd-company-in-udaipur",
+        destination: "/blog/ayurvedic-pcd-company-in-udaipur",
+        permanent: true
+      },
+      {
+        source: "/franchise/the-best-herbal-pcd-franchise-in-bhubaneswar",
+        destination: "/blog/ayurvedic-pcd-company-in-bhubaneswar",
+        permanent: true
+      },
+      {
+        source: "/franchise/the-leading-ayurvedic-pcd-company-in-sonipat",
+        destination: "/blog/ayurvedic-pcd-company-in-sonipat",
+        permanent: true
+      },
+      {
+        source: "/franchise/the-leading-ayurvedic-pcd-company-in-udaipur",
+        destination: "/blog/ayurvedic-pcd-company-in-udaipur",
+        permanent: true
+      },
+      {
+        source: "/franchise/the-leading-the-best-ayurvedic-franchise-company-in-howrah",
+        destination: "/blog/ayurvedic-pcd-company-in-howrah",
+        permanent: true
+      },
+      {
+        source: "/franchise/third-party-ayurvedic-manufacturer-in-maharashtra",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-maharashtra",
+        permanent: true
+      },
+      {
+        source: "/franchise/third-party-manufacturers-in-india",
+        destination: "/blog/ayurvedic-contract-manufacturing-company-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/third-party-manufacturing-companies-in-india",
+        destination: "/blog/third-party-manufacturing-of-ayurvedic-products",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-10-ayurvedic-companies",
+        destination: "/blog/top-ayurvedic-companies-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-10-ayurvedic-companies-in-chandigarh",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-chandigarh",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-10-ayurvedic-companies-in-kerala",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-kerala",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-10-ayurvedic-companies-in-world",
+        destination: "/blog/top-ayurvedic-companies-in-world",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-10-ayurvedic-medicine-manufacturers-in-baddi",
+        destination: "/blog/ayurvedic-medicine-manufacturer-in-baddi",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-10-ayurvedic-medicine-manufacturers-in-karnal",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-karnal",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-10-ayurvedic-pcd-franchise-in-sonipat",
+        destination: "/blog/ayurvedic-pcd-company-in-sonipat",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-10-ayurvedic-pcd-franchise-in-varanasi",
+        destination: "/blog/ayurvedic-pcd-company-in-varanasi",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-10-pcd-companies-in-orissa",
+        destination: "/blog/ayurvedic-pcd-company-in-bhubaneswar",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-10-pcd-pharma-companies-in-ambala",
+        destination: "/blog/ayurvedic-pcd-company-in-ambala",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-100-ayurvedic-companies-in-india-2022",
+        destination: "/blog/top-100-ayurvedic-companies-in-india-2022",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-100-ayurvedic-medicine-distributors-in-bangalore",
+        destination: "/blog/ayurvedic-medicine-distributors-in-bangalore",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-100-ayurvedic-medicine-distributors-in-delhi",
+        destination: "/blog/ayurvedic-medicine-distributors-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-100-ayurvedic-medicine-distributors-in-hyderabad",
+        destination: "/blog/ayurvedic-medicine-distributors-in-hyderabad",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-100-ayurvedic-medicine-distributors-in-kerala",
+        destination: "/blog/ayurvedic-medicine-distributors-in-kerala",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-100-ayurvedic-medicine-distributors-in-kolkata",
+        destination: "/blog/ayurvedic-medicine-distributors-in-kolkata",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-100-ayurvedic-medicine-distributors-in-mumbai",
+        destination: "/blog/ayurvedic-medicine-distributors-in-mumbai",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-100-ayurvedic-medicine-distributors-in-pune",
+        destination: "/blog/ayurvedic-medicine-distributors-in-pune",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-100-ayurvedic-medicine-manufacturers-in-delhi",
+        destination: "/blog/ayurvedic-medicine-manufacturer-in-delhi",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-100-ayurvedic-medicine-manufacturers-in-lucknow",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-lucknow",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-100-ayurvedic-medicine-wholesalers-in-delhi",
+        destination: "/blog/ayurvedic-medicine-distributors-in-delhi",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-100-ayurvedic-medicine-wholesalers-in-hyderabad",
+        destination: "/blog/ayurvedic-medicine-distributors-in-hyderabad",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-100-ayurvedic-medicines-wholesalers-in-mumbai",
+        destination: "/blog/ayurvedic-medicine-distributors-in-mumbai",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-20-baidyanath-ayurvedic-medicine-distributors-in-kolkata",
+        destination: "/blog/ayurvedic-medicine-distributors-in-kolkata",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-5-ayurvedic-pcd-franchise-in-udaipur",
+        destination: "/blog/ayurvedic-pcd-company-in-udaipur",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-50-ayurvedic-medicine-distributors-in-bihar",
+        destination: "/blog/ayurvedic-medicine-distributors-in-bihar",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-50-ayurvedic-medicine-manufacturers-in-paonta-sahib",
+        destination: "/blog/ayurvedic-pcd-company-in-ponta-sahib",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-50-ayurvedic-medicine-wholesalers-in-bangalore",
+        destination: "/blog/ayurvedic-medicine-distributors-in-bangalore",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-companies-in-chennai",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-chennai",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-companies-in-haridwar",
+        destination: "/blog/ayurvedic-pcd-company-in-haridwar",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-companies-in-india",
+        destination: "/blog/top-ayurvedic-companies-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-companies-in-kerala",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-kerala",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-companies-in-world",
+        destination: "/blog/top-ayurvedic-companies-in-world",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-company-in-kolkata",
+        destination: "/blog/ayurvedic-pcd-company-in-kolkata",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-company-in-madhya-pradesh",
+        destination: "/blog/ayurvedic-pcd-company-in-madhya-pradesh",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-medicine-distributors-in-west-bengal",
+        destination: "/blog/ayurvedic-medicine-distributors-in-west-bengal",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-medicine-manufacturer-in-ahmedabad",
+        destination: "/blog/ayurvedic-medicine-manufacturer-in-ahmedabad",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-medicine-manufacturer-in-bangalore",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-bangalore",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-medicine-manufacturers-in-andhra-pradesh",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-andhra-pradesh",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-medicine-manufacturers-in-coimbatore",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-coimbatore",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-medicine-manufacturers-in-haridwar",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-haridwar",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-medicine-manufacturers-in-haryana",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-haryana",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-medicine-manufacturers-in-himachal-pradesh",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-himachal-pradesh",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-medicine-manufacturers-in-indore",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-indore",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-medicine-manufacturers-in-jaipur",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-jaipur",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-medicine-manufacturers-in-kanpur",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-kanpur",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-medicine-manufacturers-in-pune",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-pune",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-medicine-manufacturers-in-rajasthan",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-rajasthan",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-medicine-manufacturers-in-tamil-nadu",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-tamil-nadu",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-pcd-companies-in-ahmedabad",
+        destination: "/blog/ayurvedic-pcd-company-in-ahmedabad",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-pcd-companies-in-hyderabad",
+        destination: "/blog/ayurvedic-pcd-company-in-hyderabad",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-pcd-company-in-amritsar",
+        destination: "/blog/ayurvedic-pcd-company-in-amritsar",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-pcd-company-in-baddi",
+        destination: "/blog/ayurvedic-pcd-company-in-baddi",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-pcd-company-in-bhopal",
+        destination: "/blog/ayurvedic-pcd-company-in-bhopal",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-pcd-company-in-bhubaneswar",
+        destination: "/blog/ayurvedic-pcd-company-in-bhubaneswar",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-pcd-company-in-chandigarh",
+        destination: "/blog/ayurvedic-pcd-company-in-chandigarh",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-pcd-company-in-india",
+        destination: "/blog/top-ayurvedic-companies-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-pcd-company-in-indore",
+        destination: "/blog/ayurvedic-pcd-company-in-indore",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-pcd-company-in-jabalpur",
+        destination: "/blog/ayurvedic-pcd-company-in-jabalpur",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-pcd-company-in-kochi",
+        destination: "/blog/ayurvedic-pcd-company-in-kochi",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-pcd-company-in-nagpur",
+        destination: "/blog/ayurvedic-pcd-company-in-nagpur",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-pcd-company-in-patna",
+        destination: "/blog/ayurvedic-pcd-company-in-patna",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-pcd-company-in-punjab",
+        destination: "/blog/ayurvedic-pcd-company-in-punjab",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-pcd-company-in-surat",
+        destination: "/blog/ayurvedic-pcd-company-in-surat",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-pcd-franchise-company",
+        destination: "/blog/ayurvedic-pcd-company-in-cuttack",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-pcd-franchise-in-howrah",
+        destination: "/blog/ayurvedic-pcd-company-in-howrah",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-pcd-franchise-in-jind",
+        destination: "/blog/ayurvedic-pcd-company-in-jind",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-herbal-ayurvedic-medicine-manufacturers-in-west-bengal",
+        destination: "/blog/herbal-ayurvedic-medicine-manufacturers-in-west-bengal",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-pcd-company-in-puducherry",
+        destination: "/blog/ayurvedic-pcd-company-in-puducherry",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-pharma-franchise-company-in-paonta-sahib",
+        destination: "/blog/ayurvedic-pcd-company-in-ponta-sahib",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-vitamin-c-serum-manufacturers-in-india",
+        destination: "/blog/ayurvedic-vitamin-c-serum-franchise-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/topmost-ayurvedic-pcd-companies-in-kerala",
+        destination: "/blog/ayurvedic-pcd-company-in-kerala",
+        permanent: true
+      },
+      {
+        source: "/franchise/topmost-ayurvedic-pcd-company-in-gaya",
+        destination: "/blog/ayurvedic-pcd-company-in-gaya",
+        permanent: true
+      },
+      {
+        source: "/franchise/trustworthy-ayurvedic-pcd-company-in-chandigarh",
+        destination: "/blog/ayurvedic-pcd-company-in-chandigarh",
+        permanent: true
+      },
+      {
+        source: "/franchise/tulsi-drops-manufacturers-suppliers",
+        destination: "/blog/tulsi-drops-manufacturers-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/tulsi-drops-manufacturers-from-india",
+        destination: "/blog/tulsi-drops-manufacturers-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/tulsi-drops-manufacturing-company-in-india",
+        destination: "/blog/tulsi-drops-manufacturers-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/tulsi-drops-producers-in-india",
+        destination: "/blog/tulsi-drops-manufacturers-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/vitamin-c-serum-manufacturers-in-india",
+        destination: "/blog/ayurvedic-vitamin-c-serum-manufacturers-in-india",
+        permanent: true
+      },
+      {
+        source: "/franchise/yurvedic-herbal-pcd-company-in-koch",
+        destination: "/blog/ayurvedic-pcd-company-in-kochi",
+        permanent: true
+      },
     ]
   }
 };
