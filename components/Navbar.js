@@ -85,7 +85,10 @@ export default function Navbar() {
 
     const isMobile = useMediaQuery("(max-width:1000px)");
 
-    const toggleDrawer = () => setOpenDrawer(!openDrawer);
+    const toggleDrawer = () => {
+        setOpenDrawer(!openDrawer);
+        setDrawerProducts(false);
+    };
     const toggleDrawerProducts = () => setDrawerProducts(!drawerProducts);
 
     const navLinks = [
@@ -355,14 +358,14 @@ export default function Navbar() {
                                     {link.dropdown.map((sub, j) => (
                                         <ListItem key={j} sx={{ pl: 4 }}>
                                             <Link href={sub.href}>
-                                                <NavLink sx={{fontSize:'14px'}}>{sub.label}</NavLink>
+                                                <NavLink sx={{ fontSize: '14px' }}>{sub.label}</NavLink>
                                             </Link>
                                         </ListItem>
                                     ))}
                                 </Collapse>
                             </Box>
                         ) : (
-                            <ListItem key={i}>
+                            <ListItem key={i} onClick={toggleDrawer}>
                                 <Link href={link.href}>
                                     <NavLink active={pathname === link.href ? 1 : 0}>
                                         {link.label}
