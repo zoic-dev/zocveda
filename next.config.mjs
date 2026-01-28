@@ -3314,6 +3314,596 @@ const nextConfig = {
         destination: "/blog/ayurvedic-pcd-company-in-kochi",
         permanent: true
       },
+      {
+        source: "/product-category/acidity",
+        destination: "/product/category/digestive-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/acne",
+        destination: "/product/category/hair-and-skin-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/allergy",
+        destination: "/product/category/respiratory-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/anal-fistula",
+        destination: "/product/category/digestive-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/anemia",
+        destination: "/product/category/detox-and-cleaning-wellness",
+        permanent: true
+      },
+      {
+        source: "/product-category/anti-aging",
+        destination: "/product/category/hair-and-skin-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/anxiety",
+        destination: "/product/category/mental-and-sleep-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/arthiritis",
+        destination: "/product/category/pain-and-bone-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/asthma",
+        destination: "/product/category/respiratory-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/baby-health-issues",
+        destination: "/product/category/kids-health",
+        permanent: true
+      },
+      {
+        source: "/product-category/back-pain",
+        destination: "/product/category/pain-and-bone-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/blood-pressure",
+        destination: "/product/category/detox-and-cleaning-wellness",
+        permanent: true
+      },
+      {
+        source: "/product-category/cervical-spondylosis",
+        destination: "/product/category/pain-and-bone-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/constipation",
+        destination: "/product/category/digestive-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/cough-cold-flu",
+        destination: "/product/category/respiratory-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/cracked-heals",
+        destination: "/product/category/hair-and-skin-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/dandruff",
+        destination: "/product/category/hair-and-skin-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/dengue",
+        destination: "/product/category/detox-and-cleaning-wellness",
+        permanent: true
+      },
+      {
+        source: "/product-category/dental-problems",
+        destination: "/product/category/dental-and-oral-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/depression",
+        destination: "/product/category/mental-and-sleep-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/dermatosis",
+        destination: "/product/category/hair-and-skin-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/detoxification",
+        destination: "/product/category/detox-and-cleaning-wellness",
+        permanent: true
+      },
+      {
+        source: "/product-category/diabetes",
+        destination: "/product/category/diabetes-and-metabolic-wellness",
+        permanent: true
+      },
+      {
+        source: "/product-category/digestion",
+        destination: "/product/category/digestive-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/dry-skin",
+        destination: "/product/category/hair-and-skin-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/fatty-liver",
+        destination: "/product/category/digestive-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/female-health",
+        destination: "/product/category/womens-health",
+        permanent: true
+      },
+      {
+        source: "/product-category/fever",
+        destination: "/product/category/detox-and-cleaning-wellness",
+        permanent: true
+      },
+      {
+        source: "/product-category/gout",
+        destination: "/product/category/pain-and-bone-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/grey-hair",
+        destination: "/product/category/hair-and-skin-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/hair-loss",
+        destination: "/product/category/hair-and-skin-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/halitosisbad-breath",
+        destination: "/product/category/respiratory-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/heart-problems",
+        destination: "/product/category/detox-and-cleaning-wellness",
+        permanent: true
+      },
+      {
+        source: "/product-category/hypertension",
+        destination: "/product/category/mental-and-sleep-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/inflammation",
+        destination: "/product/category/pain-and-bone-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/constipation",
+        destination: "/product/category/digestive-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/insomnia",
+        destination: "/product/category/mental-and-sleep-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/irritable-bowel-syndrome-ibs",
+        destination: "/product/category/digestive-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/joint-pains",
+        destination: "/product/category/pain-and-bone-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/kidney-disorders",
+        destination: "/product/category/kidney-and-urinary-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/lactation-issues",
+        destination: "/product/category/womens-health",
+        permanent: true
+      },
+      {
+        source: "/product-category/leucorrhea",
+        destination: "/product/category/womens-health",
+        permanent: true
+      },
+      {
+        source: "/product-category/liver-diseases",
+        destination: "/product/category/digestive-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/low-bone-density",
+        destination: "/product/category/pain-and-bone-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/low-immunity",
+        destination: "/product/category/detox-and-cleaning-wellness",
+        permanent: true
+      },
+      {
+        source: "/product-category/low-memory",
+        destination: "/product/category/detox-and-cleaning-wellness",
+        permanent: true
+      },
+      {
+        source: "/product-category/menopause",
+        destination: "/product/category/womens-health",
+        permanent: true
+      },
+      {
+        source: "/product-category/migraine",
+        destination: "/product/category/mental-and-sleep-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/nutritional-deficiency",
+        destination: "/product/category/detox-and-cleaning-wellness",
+        permanent: true
+      },
+      {
+        source: "/product-category/obesity",
+        destination: "/product/category/diabetes-and-metabolic-wellness",
+        permanent: true
+      },
+      {
+        source: "/product-category/oral-hygeine",
+        destination: "/product/category/dental-and-oral-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/osteoarthiritis",
+        destination: "/product/category/pain-and-bone-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/personal-hygeine",
+        destination: "/product/category/detox-and-cleaning-wellness",
+        permanent: true
+      },
+      {
+        source: "/product-category/piles",
+        destination: "/product/category/digestive-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/platelet-dysfunction",
+        destination: "/product/category/detox-and-cleaning-wellness",
+        permanent: true
+      },
+      {
+        source: "/product-category/prostate-disorders",
+        destination: "/product/category/mens-health",
+        permanent: true
+      },
+      {
+        source: "/product-category/renal-problems",
+        destination: "/product/category/kidney-and-urinary-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/respiratory-disorders",
+        destination: "/product/category/respiratory-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/rheumatoid-arthiritis",
+        destination: "/product/category/pain-and-bone-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/skin-problems",
+        destination: "/product/category/hair-and-skin-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/stomach-disorders",
+        destination: "/product/category/digestive-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/stress",
+        destination: "/product/category/mental-and-sleep-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/tanning",
+        destination: "/product/category/hair-and-skin-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/thyroid-disorders",
+        destination: "/product/category/diabetes-and-metabolic-wellness",
+        permanent: true
+      },
+      {
+        source: "/product-category/uric_acid",
+        destination: "/product/category/pain-and-bone-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/urinary_tract_infections",
+        destination: "/product/category/kidney-and-urinary-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/urticaria",
+        destination: "/product/category/kidney-and-urinary-care",
+        permanent: true
+      },
+      {
+        source: "/product-category/weakness",
+        destination: "/product/category/detox-and-cleaning-wellness",
+        permanent: true
+      },
+      {
+        source: "/product-category/weight_loss",
+        destination: "/product/category/diabetes-and-metabolic-wellness",
+        permanent: true
+      },
+      {
+        source: "/product-category/cervical-spondylosis",
+        destination: "/product/category/cervical-spondylosis/83",
+        permanent: true
+      },
+      {
+        source: "/product-category/osteoarthiritis",
+        destination: "/product/category/osteoarthiritis/139",
+        permanent: true
+      },
+      {
+        source: "/product-category/acidity/",
+        destination: "/product/category/acidity/70",
+        permanent: true
+      },
+      {
+        source: "/product-category/personal-hygeine",
+        destination: "/product/category/personal-hygeine/136",
+        permanent: true
+      },
+      {
+        source: "/product-category/joint-pains",
+        destination: "/product/category/joint-pains/112",
+        permanent: true
+      },
+      {
+        source: "/product-category/inflammation",
+        destination: "/product/category/inflammation/108",
+        permanent: true
+      },
+      {
+        source: "/product-category/low-immunity",
+        destination: "/product/category/low-immunity/124",
+        permanent: true
+      },
+      {
+        source: "/product-category/heart-problems/",
+        destination: "/product/category/heart-problems/102",
+        permanent: true
+      },
+      {
+        source: "/product-category/premature-ejaculation",
+        destination: "/product/category/premature-ejaculation/133",
+        permanent: true
+      },
+      {
+        source: "/product-category/liver-diseases",
+        destination: "/product/category/liver-diseases/122",
+        permanent: true
+      },
+      {
+        source: "/product-category/arthiritis",
+        destination: "/product/category/arthiritis/71",
+        permanent: true
+      },
+      {
+        source: "/product-category/menopause",
+        destination: "/product/category/menopause/129",
+        permanent: true
+      },
+      {
+        source: "/product-category/dry-skin/",
+        destination: "/product/category/dry-skin/92",
+        permanent: true
+      },
+      {
+        source: "/product-category/platelet-dysfunction",
+        destination: "/product/category/platelet-dysfunction/134",
+        permanent: true
+      },
+      {
+        source: "/product-category/anti-aging",
+        destination: "/product/category/anti-aging/75",
+        permanent: true
+      },
+      {
+        source: "/product-category/baby-health-issues/",
+        destination: "/product/category/baby-health-issues/78",
+        permanent: true
+      },
+      {
+        source: "/product-category/anxiety",
+        destination: "/product/category/anxiety/74",
+        permanent: true
+      },
+      {
+        source: "/product-category/oral-hygeine",
+        destination: "/product/category/oral-hygeine/138",
+        permanent: true
+      },
+      {
+        source: "/product-category/weakness/",
+        destination: "/product/category/weakness/104",
+        permanent: true
+      },
+      {
+        source: "/product/alkaved-urinary-calculi-cystitis-attack-of-renalcolic",
+        destination: "/product/alkaved-syrup-systemic-alkalizer",
+        permanent: true
+      },
+      {
+        source: "/product/alkaved-urinary-calculi-cystitis-attack-of-renalcolic-2",
+        destination: "/product/alkaved-capsules-systemic-alkalizer",
+        permanent: true
+      },
+      {
+        source: "/product/alkaved-tableturinary-calculi-cystitis-attack-of-renalcolic",
+        destination: "/product/alkaved-tablet-for-kidney-stones",
+        permanent: true
+      },
+      {
+        source: "/product/diastop-for-diabetes-mellitus-general-weaknessdue-to-diabetes",
+        destination: "/product/diastop-syrup-for-diabetes",
+        permanent: true
+      },
+      {
+        source: "/product/diastop-for-diabetes-mellitus-general-weaknessdue-to-diabetes-2",
+        destination: "/product/diastop-capsules-for-diabetes",
+        permanent: true
+      },
+      {
+        source: "/product/digscid-a-herbal-antacid",
+        destination: "/product/digscid-syrup-herbal-antacid",
+        permanent: true
+      },
+      {
+        source: "/product/digscid-a-herbal-antacid-2",
+        destination: "/product/digscid-capsules-herbal-antacid",
+        permanent: true
+      },
+      {
+        source: "/product/iroboost-iron-deficiency-anaemianutritionaldeficiency",
+        destination: "/product/iroboost-iron-tonic-for-iron-deficiency",
+        permanent: true
+      },
+      {
+        source: "/product/iroboost-iron-deficiency-anaemianutritionaldeficiency-2",
+        destination: "/product/iroboost-capsules-for-iron-deficiency",
+        permanent: true
+      },
+      {
+        source: "/product/leucofyn-for-specific-non-specificleucorrhoea",
+        destination: "/product/leucofyn-syrup-for-leucorrhoea",
+        permanent: true
+      },
+      {
+        source: "/product/leucofyn-for-specific-non-specificleucorrhoea-2",
+        destination: "/product/leucofyn-capsules-for-leucorrhoea",
+        permanent: true
+      },
+      {
+        source: "/product/livtru-homeostatic-health-tonic-treatshepatitis-jaundice-cirrhosis-due-todrugs-alcohol-infantile-liverdisordersanorexia",
+        destination: "/product/livtru-capsule-for-healthy-liver",
+        permanent: true
+      },
+      {
+        source: "/product/livtru-homeostatic-health-tonic-treatshepatitis-jaundice-cirrhosis-due-todrugs-alcohol-infantile-liverdisordersanorexia-2",
+        destination: "/product/livtru-tablets-for-healthy-liver",
+        permanent: true
+      },
+      {
+        source: "/product/tranqfyn-hysteria-hypertension-anxietydepression-insomnia",
+        destination: "/product/tranqfyn-ayurvedic-syrup-stress-reliever",
+        permanent: true
+      },
+      {
+        source: "/product/tranqfyn-hysteria-hypertension-anxietydepression-insomnia-2",
+        destination: "/tranqfyn-ayurvedic-capsules-stress-reliever",
+        permanent: true
+      },
+      {
+        source: "/product/vedcumin-anti-inflammtoryanti-oxidantimmunity-booster",
+        destination: "/product/vedcumin-syrup-immunity-booster",
+        permanent: true
+      },
+      {
+        source: "/product/vedcumin-anti-inflammtoryanti-oxidantimmunity-booster-2",
+        destination: "/product/vedcumin-tablets-immunity-booster",
+        permanent: true
+      },
+      {
+        source: "/shop/page/10",
+        destination: "/",
+        permanent: true
+      },
+      {
+        source: "/shop/page/7",
+        destination: "/",
+        permanent: true
+      },
+      {
+        source: "/contact-us",
+        destination: "/contact",
+        permanent: true
+      },
+      {
+        source: "/shop",
+        destination: "/",
+        permanent: true
+      },
+      {
+        source: "/about-us/1000",
+        destination: "/about",
+        permanent: true
+      },
+      {
+        source: "/shop/page/4/",
+        destination: "/",
+        permanent: true
+      },
+      {
+        source: "/packing/50-ml",
+        destination: "/",
+        permanent: true
+      },
+      {
+        source: "/packing/300-ml",
+        destination: "/",
+        permanent: true
+      },
+      {
+        source: "/wp-content/uploads/*",
+        destination: "/",
+        permanent: true
+      },
+      {
+        source: "/*",
+        destination: "/",
+        permanent: true
+      },
+      {
+        source: "/wp-content/themes/betheme-child/*",
+        destination: "/",
+        permanent: true
+      },
+      {
+        source: "/wp-admin/*",
+        destination: "/about",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic/ayurvedic-pcd-franchise",
+        destination: "/blog/category/ayurvedic-pcd-franchise/827",
+        permanent: true
+      },
     ]
   }
 };
