@@ -3880,26 +3880,6 @@ const nextConfig = {
         permanent: true
       },
       {
-        source: "/wp-content/uploads/*",
-        destination: "/",
-        permanent: true
-      },
-      {
-        source: "/*",
-        destination: "/",
-        permanent: true
-      },
-      {
-        source: "/wp-content/themes/betheme-child/*",
-        destination: "/",
-        permanent: true
-      },
-      {
-        source: "/wp-admin/*",
-        destination: "/about",
-        permanent: true
-      },
-      {
         source: "/ayurvedic/ayurvedic-pcd-franchise",
         destination: "/blog/category/ayurvedic-pcd-franchise/827",
         permanent: true
