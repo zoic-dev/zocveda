@@ -112,6 +112,7 @@ export default async function sitemap() {
         "/products",
         "/ayurvedic-pcd-pharma-franchise",
         "/third-party-manufacturing",
+        "/frequently-asked-questions",
         "/product/category/digestive-care",
         "/product/category/pain-and-bone-care",
         "/product/category/mental-and-sleep-care",
