@@ -14,7 +14,7 @@ import {
    SEO – Next.js App Router
 ========================= */
 export const metadata = {
-    title: "Terms & Conditions | Zocveda – Zoic Pharmaceuticals Pvt. Ltd.",
+    title: "Terms & Conditions | Zocveda – Zoic Pharmaceuticals",
     description:
         "Read the Terms and Conditions governing the use of Zocveda’s website for Ayurvedic and Herbal PCD Pharma Franchise information.",
     robots: "index, follow",
@@ -32,7 +32,7 @@ export default function TermsAndConditionsPage() {
             </Typography>
 
             <Typography variant="body2" color="text.secondary" sx={{ mb: 4 }}>
-                Zocveda – A unit of Zoic Pharmaceuticals Pvt. Ltd.
+                Zocveda – A unit of Zoic Pharmaceuticals
             </Typography>
 
             <Divider sx={{ mb: 4 }} />
@@ -103,7 +103,7 @@ export default function TermsAndConditionsPage() {
 
                 <Typography variant="body1">
                     All Website content, including text, graphics, logos, product names,
-                    layouts, and designs are owned by <strong>Zoic Pharmaceuticals Pvt. Ltd.</strong>.
+                    layouts, and designs are owned by <strong>Zoic Pharmaceuticals</strong>.
                     Unauthorised use, reproduction, or modification is strictly prohibited.
                 </Typography>
             </Box>
@@ -238,7 +238,7 @@ export default function TermsAndConditionsPage() {
                 <Typography variant="body1">
                     <strong>Zocveda</strong>
                     <br />
-                    A unit of Zoic Pharmaceuticals Pvt. Ltd.
+                    A unit of Zoic Pharmaceuticals
                     <br />
                     Website: https://www.zocveda.com
                     <br />

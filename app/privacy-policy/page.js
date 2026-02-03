@@ -14,9 +14,9 @@ import {
    SEO – Next.js App Router
 ========================= */
 export const metadata = {
-    title: "Privacy Policy | Zocveda – Zoic Pharmaceuticals Pvt. Ltd.",
+    title: "Privacy Policy | Zocveda – Zoic Pharmaceuticals",
     description:
-        "Learn how Zocveda, a brand of Zoic Pharmaceuticals Pvt. Ltd., collects, uses, and protects personal information for Ayurvedic and herbal PCD pharma franchise enquiries.",
+        "Learn how Zocveda, a brand of Zoic Pharmaceuticals, collects, uses, and protects personal information for Ayurvedic and herbal PCD pharma franchise enquiries.",
     robots: "index, follow",
     alternates: {
         canonical: "https://www.zocveda.com/privacy-policy",
@@ -32,7 +32,7 @@ export default function PrivacyPolicyPage() {
             </Typography>
 
             <Typography variant="body2" color="text.secondary" sx={{ mb: 4 }}>
-                Zocveda – A division of Zoic Pharmaceuticals Pvt. Ltd.
+                Zocveda – A division of Zoic Pharmaceuticals
             </Typography>
 
             <Divider sx={{ mb: 4 }} />
@@ -41,7 +41,7 @@ export default function PrivacyPolicyPage() {
             <Box sx={{ mb: 5 }}>
                 <Typography variant="body1" paragraph>
                     This Privacy Policy describes how <strong>Zocveda</strong>, a brand
-                    owned and operated by <strong>Zoic Pharmaceuticals Pvt. Ltd.</strong>,
+                    owned and operated by <strong>Zoic Pharmaceuticals</strong>,
                     collects, uses, protects, and discloses information obtained from users
                     of the website <strong>www.zocveda.com</strong> (“Website”).
                 </Typography>
@@ -235,7 +235,7 @@ export default function PrivacyPolicyPage() {
                 <Typography variant="body1">
                     <strong>Zocveda</strong>
                     <br />
-                    A division of Zoic Pharmaceuticals Pvt. Ltd.
+                    A division of Zoic Pharmaceuticals
                     <br />
                     Website: https://www.zocveda.com
                     <br />

@@ -14,7 +14,7 @@ import {
    SEO – Next.js App Router
 ========================= */
 export const metadata = {
-    title: "Warranty & Services | Zocveda – Zoic Pharmaceuticals Pvt. Ltd.",
+    title: "Warranty & Services | Zocveda – Zoic Pharmaceuticals",
     description:
         "Understand Zocveda’s Warranty & Services policy covering product quality standards, manufacturing compliance, logistics, and franchise partner support.",
     robots: "index, follow",
@@ -32,7 +32,7 @@ export default function WarrantyAndServicesPage() {
             </Typography>
 
             <Typography variant="body2" color="text.secondary" sx={{ mb: 4 }}>
-                Zocveda – A brand operated by Zoic Pharmaceuticals Pvt. Ltd.
+                Zocveda – A brand operated by Zoic Pharmaceuticals
             </Typography>
 
             <Divider sx={{ mb: 4 }} />
@@ -44,7 +44,7 @@ export default function WarrantyAndServicesPage() {
                 </Typography>
 
                 <Typography variant="body1" paragraph>
-                    Zocveda is a brand operating under Zoic Pharmaceuticals Pvt. Ltd. All
+                    Zocveda is a brand operating under Zoic Pharmaceuticals All
                     Ayurvedic and herbal products marketed under the Zocveda name are
                     sourced from manufacturing facilities that comply with applicable
                     regulatory requirements and prevailing industry norms at the time of
@@ -331,7 +331,7 @@ export default function WarrantyAndServicesPage() {
                 <Typography variant="body1">
                     <strong>Zocveda</strong>
                     <br />
-                    A brand operated by Zoic Pharmaceuticals Pvt. Ltd.
+                    A brand operated by Zoic Pharmaceuticals
                     <br />
                     Website: https://www.zocveda.com
                     <br />
