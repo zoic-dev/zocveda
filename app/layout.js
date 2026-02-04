@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
         {/* Google Site Verification */}
         <meta
           name="google-site-verification"
-          content="XQjp9mCqpTlpym58nSH8t69Ojq941EU7Mmnyao0yGY8"
+          content="4zmNu0T5uXt128zj8W4B-nNBrTSTmQ1wqLdJalFuXIY"
         />
 
         {/* ✅ GTM Head Script */}
