@@ -95,6 +95,8 @@ const additionalLinks = [
 ];
 
 const Footer = () => {
+    const currentYear = new Date().getFullYear();
+
     return (
         <Box
             component="footer"
@@ -371,7 +373,7 @@ const Footer = () => {
                                 textAlign={"center"}
                                 sx={{ color: "#acacac", mt: { xs: 2, md: 0 } }}
                             >
-                                © Zocveda 2025. All Rights Reserved
+                                © Zocveda {currentYear}. All Rights Reserved
                             </Typography>
                         </Grid>
                     </Grid>
