@@ -212,9 +212,7 @@ export default function PageContent() {
                             Corporate Office
                         </Typography>
                         <Stack direction="row" justifyContent="center" spacing={2}>
-                            <Link href="mailto:info@zocveda.com">
-                                <Typography variant="body1">Plot No. 194, Sector 82, Industrial Area, Mohali</Typography>
-                            </Link>
+                            <Typography variant="body1">Plot No. 194, Sector 82, Industrial Area, Mohali</Typography>
                         </Stack>
                     </Stack>
                 </Grid>
