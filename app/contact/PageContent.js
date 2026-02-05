@@ -1,6 +1,6 @@
 "use client";
 
-import { AccessTime, Email, Phone } from "@mui/icons-material";
+import { AccessTime, Email, LocationPin, Phone } from "@mui/icons-material";
 import { Container, Grid, IconButton, Snackbar, Stack, Toolbar, Typography } from "@mui/material";
 import Link from "next/link";
 import { useForm } from "react-hook-form";
@@ -206,14 +206,14 @@ export default function PageContent() {
                                 "&:hover": { backgroundColor: "#E64A19" },
                             }}
                         >
-                            <Email fontSize="medium" />
+                            <LocationPin fontSize="medium" />
                         </IconButton>
                         <Typography variant="h5" fontWeight={600} gutterBottom>
-                            Email
+                            Corporate Office
                         </Typography>
                         <Stack direction="row" justifyContent="center" spacing={2}>
                             <Link href="mailto:info@zocveda.com">
-                                <Typography variant="body1">info@zocveda.com</Typography>
+                                <Typography variant="body1">Plot No. 194, Sector 82, Industrial Area, Mohali</Typography>
                             </Link>
                         </Stack>
                     </Stack>

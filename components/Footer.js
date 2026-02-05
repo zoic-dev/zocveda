@@ -124,7 +124,7 @@ const Footer = () => {
                             Contact Us
                         </Typography>
                         <Stack spacing={2} mb={2}>
-                            <Stack direction={"row"} spacing={1}>
+                            {/* <Stack direction={"row"} spacing={1}>
                                 <Email fontSize="small" />
 
                                 <MUILink
@@ -140,7 +140,7 @@ const Footer = () => {
                                 >
                                     info@zocveda.com
                                 </MUILink>
-                            </Stack>
+                            </Stack> */}
 
                             <Stack direction={"row"} spacing={1}>
                                 <Phone fontSize="small" />
