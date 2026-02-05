@@ -64,9 +64,8 @@ export async function POST(request) {
         // User-facing subject (important)
         const mailOptions = {
             from: `"Zocveda Wellness" <${process.env.EMAIL_USER}>`,
-            to: EMAIL_CC,
-            replyTo: process.env.EMAIL_USER,
-            cc: process.env.EMAIL_CC,
+            to: process.env.EMAIL_CC,
+            cc: email,
             subject: "We’ve received your enquiry | Zocveda Wellness",
             html: html,
         };
