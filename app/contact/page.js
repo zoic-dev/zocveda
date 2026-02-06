@@ -1,11 +1,17 @@
 import PageContent from "./PageContent";
 
 export const metadata = {
-    title: "Contact Biozoc Inc. | Pharma & Nutraceutical Manufacturing Inquiries",
+    title: "Contact Zocveda | Ayurvedic Franchise and Product Queries",
     description:
-        "Get in touch with Biozoc Inc. for pharma and nutraceutical contract manufacturing inquiries. Reach our WHO-GMP certified team for product pricing, custom formulations, private labeling, and OEM services in India.",
-    keywords:
-        "contact Biozoc Inc, pharma manufacturing inquiry, nutraceutical manufacturer contact, third party pharma contact, OEM pharma support, private label nutraceuticals India, pharma contract manufacturing support, Biozoc customer care",
+        "Get in touch with Zocveda for enquiries about ayurvedic franchise opportunities, herbal products, third-party manufacturing, and ayurvedic services in India.",
+    keywords: [
+        "ayurvedic franchise company",
+        "herbal pcd company franchise",
+        "ayurvedic franchise company in india",
+        "ayurvedic herbal pcd company",
+        "herbal pcd company",
+        "pcd herbal company in india"
+    ]
 };
 
 

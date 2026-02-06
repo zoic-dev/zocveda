@@ -1,13 +1,18 @@
 import PageContent from "./PageContent";
 
 export const metadata = {
-    title: "FAQs Zocveda Wellness | Pharma & Nutraceutical Manufacturing Inquiries",
+    title: "Zocveda FAQ | Ayurvedic Products and Franchise Questions",
     description:
-        "Get in touch with Biozoc Inc. for pharma and nutraceutical contract manufacturing inquiries. Reach our WHO-GMP certified team for product pricing, custom formulations, private labeling, and OEM services in India.",
-    keywords:
-        "contact Biozoc Inc, pharma manufacturing inquiry, nutraceutical manufacturer contact, third party pharma contact, OEM pharma support, private label nutraceuticals India, pharma contract manufacturing support, Biozoc customer care",
+        "Find answers to common questions about Zocveda’s ayurvedic products, herbal solutions, franchise opportunities and third party manufacturing in India.",
+    keywords: [
+        "ayurvedic franchise company",
+        "herbal pcd company franchise",
+        "ayurvedic franchise company in india",
+        "ayurvedic herbal pcd company",
+        "herbal pcd company",
+        "pcd herbal company in india"
+    ]
 };
-
 
 export default function Contact() {
     return (

@@ -4,17 +4,17 @@ import PageContent from "./PageContent";
 
 // ⭐ Basic SEO Setup
 export const metadata = {
-    title: "Products | Biozoc Pharmaceuticals",
+    title: "Best Ayurvedic Products in India | Top Selling Herbal Range",
     description:
-        "Explore a wide range of high-quality Ayurvedic and pharmaceutical products by Biozoc Pharmaceuticals. Safe, effective, and scientifically formulated.",
+        "Explore the best ayurvedic products in India from Zocveda, trusted herbal formulations, top-selling ayurvedic range & quality ayurvedic company offerings.",
     keywords: [
-        "Biozoc",
-        "Biozoc Pharmaceuticals",
-        "Ayurvedic products",
-        "pharma products",
-        "herbal products",
-        "nutraceuticals",
-        "health supplements"
+        "ayurvedic product",
+        "best ayurvedic product",
+        "best ayurvedic product in india",
+        "best ayurvedic product company in india",
+        "top ayurvedic product in india",
+        "ayurvedic & herbal product manufacturers & suppliers",
+        "ayurvedic product suppliers"
     ]
 };
 

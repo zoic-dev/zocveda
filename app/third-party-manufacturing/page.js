@@ -1,11 +1,19 @@
 import PageContent from "./PageContent";
 
 export const metadata = {
-    title: "End-to-End Pharma & Nutraceutical Contract Manufacturing in India | Biozoc Inc.",
+    title: "Ayurvedic Third-Party Manufacturing Company in India",
     description:
-        "Biozoc Inc. offers complete third-party pharma & nutraceutical manufacturing in India with WHO-GMP certified facilities, low MOQ, custom packaging, and full R&D support.",
-    keywords:
-        "pharma contract manufacturing India, third party pharma manufacturer, nutraceutical manufacturer, Biozoc Inc, WHO GMP certified pharma, pharma OEM services, private label pharma, custom formulation India",
+        "Zocveda offers ayurvedic third-party manufacturing services, trusted ayurvedic medicine manufacturing, and third party manufacturing of ayurvedic products.",
+    keywords: [
+        "ayurvedic third party manufacturing",
+        "ayurvedic third party manufacturing company",
+        "ayurvedic medicine third party manufacturing",
+        "third party manufacturing of ayurvedic product",
+        "third party ayurvedic medicine manufacturers in india",
+        "third party manufacturing ayurvedic product",
+        "ayurvedic third party manufacturers in india",
+        "ayurvedic gmp certified third party manufacturing company"
+    ]
 };
 
 

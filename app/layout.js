@@ -8,11 +8,16 @@ import Script from "next/script";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata = {
-  title: "Zocveda Wellness | Leading Pharma & Nutraceutical Manufacturer in India",
-  description:
-    "Zocveda Wellness is a trusted PCD pharma company and third-party manufacturer offering premium pharmaceutical and nutraceutical products with WHO-GMP certified facilities, custom formulations, private labeling, and nationwide PCD franchise opportunities.",
-  keywords:
-    "Biozoc Inc, pharma manufacturer India, nutraceutical manufacturer India, third party pharma manufacturing, contract manufacturing pharma, PCD pharma company, PCD franchise India, private label nutraceuticals, pharma OEM services, custom formulation pharma, WHO GMP certified manufacturer",
+  title: "Ayurvedic Franchise Company in India | Herbal PCD Franchise",
+  description: "Zocveda is a trusted ayurvedic franchise company in India offering quality herbal PCD company franchise opportunities with a wide product range.",
+  keywords: [
+    "ayurvedic franchise company",
+    "herbal pcd company franchise",
+    "ayurvedic franchise company in india",
+    "ayurvedic herbal pcd company",
+    "herbal pcd company",
+    "pcd herbal company in india",
+  ]
 };
 
 export default function RootLayout({ children }) {
