@@ -5,7 +5,7 @@ import FAQComponent from "@/components/FAQComponent";
 import SimpleSlider from "@/components/SimpleSlider";
 import TestimonialSlider from "@/components/TestimonialSlider";
 import { PAGE_FAQS } from "@/data/faqsdata";
-import { Button, Container, Grid, Stack, Typography, Card } from "@mui/material";
+import { Button, Container, Grid, Stack, Typography, Card, CardMedia } from "@mui/material";
 import Link from "next/link";
 
 export const productCategories = [
@@ -88,15 +88,20 @@ export default function Home() {
       <Container sx={{ py: 8 }}>
 
         {/* Our Products Section */}
-        <Stack spacing={6} textAlign="center">
-          <Typography variant="h4" fontWeight={700}>
+        <Stack spacing={3} textAlign="center">
+          <Typography variant="h4"
+            sx={{
+              fontSize: { xs: "1.25rem", sm: "2.125rem" }, // h6 → h4 sizes
+              fontWeight: 600,
+            }}
+          >
             Explore Our Ayurvedic Products
           </Typography>
           <Typography variant="body1" color="text.secondary">
             A wide range of trusted Ayurvedic solutions for all your health and wellness needs
           </Typography>
 
-          <Grid container spacing={4} justifyContent="center">
+          <Grid container spacing={2} justifyContent="center">
             {productCategories.map((item, index) => (
               <Grid key={index} size={{ xs: 6, sm: 4, md: 3 }}>
                 <Link href={item.link} style={{ textDecoration: "none" }}>
@@ -107,11 +112,22 @@ export default function Home() {
                       cursor: "pointer",
                       boxShadow: "0px 4px 15px rgba(0,0,0,0.1)",
                       transition: "all 0.3s",
-                      "&:hover img": { transform: "scale(1.1)" },
+                      "&:hover img": { transform: "scale(1.05)" },
                       "&:hover": { boxShadow: "0px 8px 25px rgba(0,0,0,0.2)" },
                     }}
                   >
-                    <img
+                    <CardMedia
+                      component="img"
+                      image={item.img}
+                      alt={item.label}
+                      sx={{
+                        width: "100%",
+                        height: "auto",
+                        objectFit: "contain",
+                        transition: "all 0.3s ease",
+                      }}
+                    />
+                    {/* <img
                       src={item.img}
                       alt={item.label}
                       style={{
@@ -120,14 +136,14 @@ export default function Home() {
                         objectFit: "contain",
                         transition: "all 0.3s",
                       }}
-                    />
-                    <Typography
-                      variant="h6"
-                      sx={{ py: 2, fontWeight: 600, color: "#1F6A36" }}
-                    >
-                      {item.label}
-                    </Typography>
+                    /> */}
                   </Card>
+                  <Typography
+                    variant="body1"
+                    sx={{ py: 1, fontWeight: 600, color: "#1F6A36" }}
+                  >
+                    {item.label}
+                  </Typography>
                 </Link>
               </Grid>
             ))}
@@ -265,7 +281,7 @@ export default function Home() {
       </Stack>
 
       <Container>
-        <FAQComponent faqs={PAGE_FAQS.home}/>
+        <FAQComponent faqs={PAGE_FAQS.home} />
       </Container>
     </>
   );

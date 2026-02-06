@@ -378,18 +378,20 @@ export default function Navbar() {
 
                 <Divider sx={{ my: 1 }} />
 
-                <Button
-                    fullWidth
-                    variant="contained"
-                    sx={{
-                        backgroundColor: "#1F6A36",
-                        color: "#fff",
-                        fontWeight: 600,
-                        "&:hover": { backgroundColor: "#1F6A36" },
-                    }}
-                >
-                    ENQUIRE NOW
-                </Button>
+                <Link href="/contact" passHref legacyBehavior>
+                    <Button
+                        fullWidth
+                        variant="contained"
+                        sx={{
+                            backgroundColor: "#1F6A36",
+                            color: "#fff",
+                            fontWeight: 600,
+                            "&:hover": { backgroundColor: "#1F6A36" },
+                        }}
+                    >
+                        ENQUIRE NOW
+                    </Button>
+                </Link>
             </Drawer>
         </>
     );
