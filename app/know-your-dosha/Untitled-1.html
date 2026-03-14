@@ -1,0 +1,334 @@
+<div id="dosha-quiz" class="dosha-wrapper">
+
+  <h2 class="quiz-title">Know Your Dosha</h2>
+  <p class="quiz-subtitle">
+    Discover your mind-body type by taking this quick, interactive quiz.
+  </p>
+
+  <!-- Start Screen -->
+  <div id="start-screen">
+    <button onclick="startQuiz()" class="start-btn">
+      Start Quiz
+    </button>
+  </div>
+
+  <!-- Quiz Section -->
+  <div id="quiz-section" style="display:none">
+
+    <div class="progress-bar">
+      <div id="progress"></div>
+    </div>
+
+    <div class="quiz-card">
+      <h3 id="question"></h3>
+      <div id="options"></div>
+    </div>
+
+  </div>
+
+  <!-- Result Section -->
+  <div id="result-section" style="display:none">
+    <div class="result-card">
+
+      <h2 id="result-title"></h2>
+
+      <p id="result-desc"></p>
+
+      <div id="tips"></div>
+
+      <button onclick="restartQuiz()" class="restart-btn">
+        Retake Quiz
+      </button>
+
+    </div>
+  </div>
+
+</div>
+
+
+<style>
+
+.dosha-wrapper{
+  padding:80px 20px;
+  background:#F3FFF8;
+  text-align:center;
+  max-width:700px;
+  margin:auto;
+}
+
+.quiz-title{
+  font-size:36px;
+  font-weight:700;
+  color:#1F6A36;
+}
+
+.quiz-subtitle{
+  font-size:18px;
+  margin-bottom:40px;
+}
+
+.start-btn{
+  padding:18px 50px;
+  font-size:18px;
+  font-weight:600;
+  border-radius:10px;
+  background:linear-gradient(135deg,#1F6A36,#60B04A);
+  color:white;
+  border:none;
+  cursor:pointer;
+}
+
+.quiz-card{
+  background:white;
+  padding:30px;
+  border-radius:12px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+.option-btn{
+  display:block;
+  width:100%;
+  padding:14px;
+  margin:10px 0;
+  border:2px solid #1F6A36;
+  border-radius:8px;
+  background:white;
+  color:#1F6A36;
+  font-size:16px;
+  cursor:pointer;
+}
+
+.option-btn:hover{
+  background:#1F6A36;
+  color:white;
+}
+
+.progress-bar{
+  width:100%;
+  height:10px;
+  background:#c4dfbc;
+  border-radius:10px;
+  margin-bottom:30px;
+}
+
+#progress{
+  height:100%;
+  width:0%;
+  background:#1F6A36;
+  border-radius:10px;
+}
+
+.result-card{
+  padding:40px;
+  background:white;
+  border-radius:14px;
+  box-shadow:0 10px 40px rgba(0,0,0,0.15);
+}
+
+.restart-btn{
+  padding:12px 40px;
+  background:#1F6A36;
+  color:white;
+  border:none;
+  border-radius:10px;
+  font-weight:600;
+  cursor:pointer;
+}
+
+</style>
+
+
+<script>
+
+const quizQuestions = [
+{
+question:"Your body frame is generally:",
+options:[
+{text:"Thin and light",value:"Vata"},
+{text:"Medium and muscular",value:"Pitta"},
+{text:"Sturdy and solid",value:"Kapha"}
+]},
+{
+question:"Your skin is usually:",
+options:[
+{text:"Dry or rough",value:"Vata"},
+{text:"Warm and slightly oily",value:"Pitta"},
+{text:"Soft, smooth, and oily",value:"Kapha"}
+]},
+{
+question:"Your energy levels are:",
+options:[
+{text:"Variable and inconsistent",value:"Vata"},
+{text:"Strong with bursts of energy",value:"Pitta"},
+{text:"Steady but slower",value:"Kapha"}
+]},
+{
+question:"You handle stress by:",
+options:[
+{text:"Becoming anxious or restless",value:"Vata"},
+{text:"Getting irritated or frustrated",value:"Pitta"},
+{text:"Feeling lethargic or withdrawing",value:"Kapha"}
+]},
+{
+question:"Your digestion is usually:",
+options:[
+{text:"Irregular or weak",value:"Vata"},
+{text:"Strong and quick",value:"Pitta"},
+{text:"Slow and steady",value:"Kapha"}
+]},
+{
+question:"Your sleep pattern is generally:",
+options:[
+{text:"Light and irregular",value:"Vata"},
+{text:"Moderate but can be disturbed by heat",value:"Pitta"},
+{text:"Deep and long",value:"Kapha"}
+]},
+{
+question:"Your mood is usually:",
+options:[
+{text:"Restless, creative, excitable",value:"Vata"},
+{text:"Determined, ambitious, sometimes irritable",value:"Pitta"},
+{text:"Calm, patient, sometimes sluggish",value:"Kapha"}
+]},
+{
+question:"Your appetite is generally:",
+options:[
+{text:"Variable, sometimes low",value:"Vata"},
+{text:"Strong and consistent",value:"Pitta"},
+{text:"Slow, tends to overeat occasionally",value:"Kapha"}
+]},
+{
+question:"You prefer weather that is:",
+options:[
+{text:"Warm and moist",value:"Vata"},
+{text:"Cool and dry",value:"Pitta"},
+{text:"Warm and dry",value:"Kapha"}
+]},
+{
+question:"Your response to new tasks is:",
+options:[
+{text:"Excited but inconsistent",value:"Vata"},
+{text:"Focused and goal-oriented",value:"Pitta"},
+{text:"Steady but slow to start",value:"Kapha"}
+]},
+{
+question:"Your hair is usually:",
+options:[
+{text:"Dry, frizzy, or thin",value:"Vata"},
+{text:"Oily or prone to premature greying",value:"Pitta"},
+{text:"Thick, lustrous, and slow-growing",value:"Kapha"}
+]},
+{
+question:"You feel energized by:",
+options:[
+{text:"Movement, activity, and variety",value:"Vata"},
+{text:"Challenges, competition, and learning",value:"Pitta"},
+{text:"Rest, stability, and comfort",value:"Kapha"}
+]}
+];
+
+let currentQuestion=0;
+let answers=[];
+
+function startQuiz(){
+document.getElementById("start-screen").style.display="none";
+document.getElementById("quiz-section").style.display="block";
+showQuestion();
+}
+
+function showQuestion(){
+
+let q=quizQuestions[currentQuestion];
+
+document.getElementById("question").innerText=q.question;
+
+let optionsHTML="";
+
+q.options.forEach(opt=>{
+optionsHTML+=`<button class="option-btn" onclick="selectAnswer('${opt.value}')">${opt.text}</button>`;
+});
+
+document.getElementById("options").innerHTML=optionsHTML;
+
+let progress=(currentQuestion/quizQuestions.length)*100;
+document.getElementById("progress").style.width=progress+"%";
+}
+
+function selectAnswer(value){
+
+answers.push(value);
+
+if(currentQuestion+1<quizQuestions.length){
+currentQuestion++;
+showQuestion();
+}else{
+calculateResult();
+}
+
+}
+
+function calculateResult(){
+
+let count={Vata:0,Pitta:0,Kapha:0};
+
+answers.forEach(a=>count[a]++);
+
+let result=Object.keys(count).reduce((a,b)=>count[a]>count[b]?a:b);
+
+showResult(result);
+
+}
+
+function showResult(result){
+
+document.getElementById("quiz-section").style.display="none";
+document.getElementById("result-section").style.display="block";
+
+document.getElementById("result-title").innerText="Your Primary Dosha: "+result;
+
+let desc="";
+let tips="";
+
+if(result==="Vata"){
+desc="Vata types are energetic, creative, and flexible. They thrive on routine and grounding practices.";
+tips=`<ul>
+<li>Eat warm, nourishing meals</li>
+<li>Follow a regular daily routine</li>
+<li>Practice grounding exercises like yoga or meditation</li>
+</ul>`;
+}
+
+if(result==="Pitta"){
+desc="Pitta types are strong, determined, and intelligent. They need to manage heat and maintain balance.";
+tips=`<ul>
+<li>Stay cool and hydrated</li>
+<li>Practice calming activities</li>
+<li>Include bitter and sweet foods in your diet</li>
+</ul>`;
+}
+
+if(result==="Kapha"){
+desc="Kapha types are calm, steady, and nurturing. They benefit from stimulation and regular activity.";
+tips=`<ul>
+<li>Stay active with regular exercise</li>
+<li>Eat light and spicy meals</li>
+<li>Incorporate stimulating activities</li>
+</ul>`;
+}
+
+document.getElementById("result-desc").innerText=desc;
+document.getElementById("tips").innerHTML=tips;
+
+}
+
+function restartQuiz(){
+
+currentQuestion=0;
+answers=[];
+
+document.getElementById("result-section").style.display="none";
+document.getElementById("start-screen").style.display="block";
+
+}
+
+</script>
