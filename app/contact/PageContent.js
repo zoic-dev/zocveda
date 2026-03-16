@@ -172,8 +172,8 @@ export default function PageContent() {
                             Phone
                         </Typography>
                         <Stack direction="row" justifyContent="center" spacing={2}>
-                            <Link href="tel:9815846086">
-                                <Typography variant="body1">98158-46086</Typography>
+                            <Link href="tel:9815846085">
+                                <Typography variant="body1">98158-46085</Typography>
                             </Link>
                         </Stack>
                     </Stack>
