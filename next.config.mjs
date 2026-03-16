@@ -3884,6 +3884,1016 @@ const nextConfig = {
         destination: "/blog/category/ayurvedic-pcd-franchise/827",
         permanent: true
       },
+      {
+        source: "/ayurvedic-pcd-company-in-gaya",
+        destination: "/blog/ayurvedic-pcd-company-in-gaya",
+        permanent: true
+      },
+      {
+        source: "/essential-licenses-needed-to-start-a-pharma-business-in-india",
+        destination: "/blog/essential-licenses-needed-to-start-a-pharma-business-in-india",
+        permanent: true
+      },
+      {
+        source: "/pcd-franchise",
+        destination: "/blog/category/ayurvedic-pcd-franchise/82",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-medicine-",
+        destination: "/blog/ayurvedic-medicine-business-opportunity-in-india",
+        permanent: true
+      },
+      {
+        source: "/product/tranqfyn-hysteria-hypertension-anxietydepression-insomnia-2",
+        destination: "/product/tranqfyn-ayurvedic-capsules-stress-reliever",
+        permanent: true
+      },
+      {
+        source: "/franchise/ayurvedic-pcd-company-in-gwalior/feed",
+        destination: "/blog/ayurvedic-pcd-company-in-gwalior",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-vitamin-c-serum-manufacturers-in-india-in-hindi",
+        destination: "/blog/ayurvedic-vitamin-c-serum-manufacturers-in-india-in-hindi",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-haryana",
+        destination: "/blog/ayurvedic-pcd-company-in-haryana",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-varanasi",
+        destination: "/blog/ayurvedic-pcd-company-in-varanasi",
+        permanent: true
+      },
+      {
+        source: "/herbal-ayurvedic-medicine-manufacturers-in-west-bengal",
+        destination: "/blog/herbal-ayurvedic-medicine-manufacturers-in-west-bengal",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-vitamin-c-serum-franchise-in-india",
+        destination: "/blog/ayurvedic-vitamin-c-serum-franchise-in-india",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-medicine-distributors-in-pune",
+        destination: "/blog/ayurvedic-medicine-distributors-in-pune",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-ponta-sahib",
+        destination: "/blog/ayurvedic-pcd-company-in-ponta-sahib",
+        permanent: true
+      },
+      {
+        source: "/shop/page/11",
+        destination: "/",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-medicine-distributors-in-mumbai",
+        destination: "/blog/ayurvedic-medicine-distributors-in-mumbai",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-nizamabad",
+        destination: "/blog/ayurvedic-pcd-company-in-nizamabad",
+        permanent: true
+      },
+      {
+        source: "/shop/page/6",
+        destination: "/",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-punjab",
+        destination: "/blog/ayurvedic-pcd-company-in-punjab",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-chhattisgarh",
+        destination: "/blog/ayurvedic-pcd-company-in-chhattisgarh",
+        permanent: true
+      },
+      {
+        source: "/chawyanprash-manufacturers-in-india",
+        destination: "/blog/chawyanprash-manufacturers-in-india",
+        permanent: true
+      },
+      {
+        source: "/how-to-start-ayurvedic-marketing-company-in-hindi",
+        destination: "/blog/how-to-start-ayurvedic-marketing-company-in-hindi",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-medicine-manufacturers-in-indore",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-indore",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-companies-in-india-in-hindi",
+        destination: "/blog/ayurvedic-companies-in-india-in-hindi",
+        permanent: true
+      },
+      {
+        source: "/product-category/uncategorized/page/1",
+        destination: "/products",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-medicine-manufacturers-in-jaipur",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-jaipur",
+        permanent: true
+      },
+      {
+        source: "/product-category/uncategorized/",
+        destination: "/products",
+        permanent: true
+      },
+      {
+        source: "/product-category/impotence",
+        destination: "/product/category/impotence/140",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-kerala",
+        destination: "/blog/ayurvedic-pcd-company-in-kerala",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-surat",
+        destination: "/blog/ayurvedic-pcd-company-in-surat",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-medicine-manufacturers-in-pune",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-pune",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-medicine-business-opportunity-in-india",
+        destination: "/blog/ayurvedic-medicine-business-opportunity-in-india",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-medicine-manufacturer-in-baddi",
+        destination: "/blog/ayurvedic-medicine-manufacturer-in-baddi",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-medicine-manufacturers-in-tamil-nadu",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-tamil-nadu",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-delhi",
+        destination: "/blog/ayurvedic-pcd-company-in-delhi",
+        permanent: true
+      },
+      {
+        source: "/about-us",
+        destination: "/about",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic/ayurvedic-companies",
+        destination: "/blog/category/ayurvedic-companies/148",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-aurangabad",
+        destination: "/blog/ayurvedic-pcd-company-in-aurangabad",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-gujarat",
+        destination: "/blog/ayurvedic-pcd-company-in-gujarat",
+        permanent: true
+      },
+      {
+        source: "/shop/page/8",
+        destination: "/",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-nagpur",
+        destination: "/blog/ayurvedic-pcd-company-in-nagpur",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-ambala",
+        destination: "/blog/ayurvedic-pcd-company-in-ambala",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-herbal-medicine-manufacturers-in-india-in-hindi",
+        destination: "/blog/ayurvedic-herbal-medicine-manufacturers-in-india-in-hindi",
+        permanent: true
+      },
+      {
+        source: "/shop/page/9",
+        destination: "/",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-chandigarh",
+        destination: "/blog/ayurvedic-pcd-company-in-chandigarh",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-medicine-manufacturers-in-andhra-pradesh",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-andhra-pradesh",
+        permanent: true
+      },
+      {
+        source: "/franchise/top-ayurvedic-medicine-manufacturers-in-chandigarh",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-chandigarh",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-mangalore",
+        destination: "/blog/ayurvedic-pcd-company-in-mangalore",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-medicine-distributors-in-kolkata",
+        destination: "/blog/ayurvedic-medicine-distributors-in-kolkata",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-medicine-manufacturers-in-lucknow",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-lucknow",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-vitamin-c-serum-manufacturers-in-india",
+        destination: "/blog/ayurvedic-vitamin-c-serum-manufacturers-in-india",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-medicine-distributors-in-chennai",
+        destination: "/blog/ayurvedic-medicine-distributors-in-chennai",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-jabalpur",
+        destination: "/blog/ayurvedic-pcd-company-in-jabalpur",
+        permanent: true
+      },
+      {
+        source: "/shop/page/3",
+        destination: "/",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-andhra-pradesh",
+        destination: "/blog/ayurvedic-pcd-company-in-andhra-pradesh",
+        permanent: true
+      },
+      {
+        source: "/product-category/low-sperm-count",
+        destination: "/product/category/low-sperm-count/126",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-medicine-manufacturers-in-india",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-india",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-medicine-manufacturers-in-haryana",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-haryana",
+        permanent: true
+      },
+      {
+        source: "/product-category/uncategorized",
+        destination: "/products",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-west-bengal",
+        destination: "/blog/ayurvedic-pcd-company-in-west-bengal",
+        permanent: true
+      },
+      {
+        source: "/our-divisions",
+        destination: "/",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-medicine-manufacturers-in-coimbatore",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-coimbatore",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-medicine-manufacturers-in-chennai",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-chennai",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-medicine-distributors-in-delhi",
+        destination: "/blog/ayurvedic-medicine-distributors-in-delhi",
+        permanent: true
+      },
+      {
+        source: "/top-ayurvedic-companies-in-world",
+        destination: "/blog/top-ayurvedic-companies-in-world",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-ahmedabad",
+        destination: "/blog/ayurvedic-pcd-company-in-ahmedabad",
+        permanent: true
+      },
+      {
+        source: "/aloe-vera-gel-manufacturers-in-india",
+        destination: "/blog/aloe-vera-gel-manufacturers-in-india",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-tripura",
+        destination: "/blog/ayurvedic-pcd-company-in-tripura",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-mumbai",
+        destination: "/blog/ayurvedic-pcd-company-in-mumbai",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-bangalore",
+        destination: "/blog/ayurvedic-pcd-company-in-bangalore",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-medicine-manufacturers-in-gujarat",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-gujarat",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-herbal-medicine-manufacturers-in-india",
+        destination: "/blog/ayurvedic-herbal-medicine-manufacturers-in-india",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-bihar",
+        destination: "/blog/ayurvedic-pcd-company-in-bihar",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-medicine-distributors-in-bihar",
+        destination: "/blog/ayurvedic-medicine-distributors-in-bihar",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-medicine-manufacturers-in-haridwar",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-haridwar",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-pharma-franchise-in-hindi",
+        destination: "/ayurvedic-pcd-pharma-franchise",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-medicine-distributors-in-bangalore",
+        destination: "/blog/ayurvedic-medicine-distributors-in-bangalore",
+        permanent: true
+      },
+      {
+        source: "/shop/page/7",
+        destination: "/",
+        permanent: true
+      },
+      {
+        source: "/shop",
+        destination: "/",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-pcd-pharma-franchise-in-cuttack/feed",
+        destination: "blog/ayurvedic-pcd-company-in-cuttack",
+        permanent: true
+      },
+      {
+        source: "/product-category/low-immunity/feed",
+        destination: "/product/category/detox-and-cleaning-wellness",
+        permanent: true
+      },
+      {
+        source: "/franchise/ayurvedic-medicine-manufacturers-suppliers-in-indore/feed",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-indore",
+        permanent: true
+      },
+      {
+        source: "/franchise/ayurvedic-franchise-business-in-moradabad/feed",
+        destination: "/blog/ayurvedic-pcd-company-in-moradabad",
+        permanent: true
+      },
+      {
+        source: "/shop/page/10",
+        destination: "/",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-telangana",
+        destination: "/blog/ayurvedic-pcd-company-in-telangana",
+        permanent: true
+      },
+      {
+        source: "/terms-conditions",
+        destination: "/terms-and-conditions",
+        permanent: true
+      },
+      {
+        source: "/product-category/low-sperm-count/",
+        destination: "/product/category/low-sperm-count/126",
+        permanent: true
+      },
+      {
+        source: "/shop/page/9/",
+        destination: "/",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-medicine-distributors-in-kerala",
+        destination: "/blog/ayurvedic-medicine-distributors-in-kerala",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-coimbatore",
+        destination: "/blog/ayurvedic-pcd-company-in-coimbatore",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-vijayawada",
+        destination: "/blog/ayurvedic-pcd-company-in-vijayawada",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-patna",
+        destination: "/blog/ayurvedic-pcd-company-in-patna",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-warangal",
+        destination: "/blog/ayurvedic-pcd-company-in-warangal",
+        permanent: true
+      },
+      {
+        source: "/single-herb-manufacturers",
+        destination: "/blog/single-herb-manufacturers",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-medicine-manufacturers-in-kerala",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-kerala",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-gurgaon",
+        destination: "/blog/ayurvedic-pcd-company-in-gurgaon",
+        permanent: true
+      },
+      {
+        source: "/franchise/herbal-ayurvedic-pcd-franchise-in-arunachal-pradesh/feed",
+        destination: "/blog/ayurvedic-pcd-company-in-arunachal-pradesh",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-contract-manufacturing-company-in-india-in-hindi",
+        destination: "/blog/ayurvedic-contract-manufacturing-company-in-india-in-hindi",
+        permanent: true
+      },
+      {
+        source: "/chyawanprash-manufacturers-in-india-in-hindi",
+        destination: "/blog/chyawanprash-manufacturers-in-india-in-hindi",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-dehradun",
+        destination: "/blog/ayurvedic-pcd-company-in-dehradun",
+        permanent: true
+      },
+      {
+        source: "/vision-mision",
+        destination: "/about",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-indore",
+        destination: "/blog/ayurvedic-pcd-company-in-indore",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic",
+        destination: "/ayurveda",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-karnal",
+        destination: "/blog/ayurvedic-pcd-company-in-karnal",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-howrah",
+        destination: "/blog/ayurvedic-pcd-company-in-howrah",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic/uncategorized",
+        destination: "/ayurveda",
+        permanent: true
+      },
+      {
+        source: "/shop/page/4",
+        destination: "/",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-saharanpur",
+        destination: "/blog/ayurvedic-pcd-company-in-saharanpur",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-uttarakhand",
+        destination: "/blog/ayurvedic-pcd-company-in-uttarakhand",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-baddi",
+        destination: "/blog/ayurvedic-pcd-company-in-baddi",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-pune",
+        destination: "/blog/ayurvedic-pcd-company-in-pune",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-rajkot",
+        destination: "/blog/ayurvedic-pcd-company-in-rajkot",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-medicine-manufacturers-in-rajasthan",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-rajasthan",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic/",
+        destination: "/ayurveda",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-kolkata",
+        destination: "/blog/ayurvedic-pcd-company-in-kolkata",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-rajasthan",
+        destination: "/blog/ayurvedic-pcd-company-in-rajasthan",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-medicine-manufacturers-in-maharashtra",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-maharashtra",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-kota",
+        destination: "/blog/ayurvedic-pcd-company-in-kota",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-mizoram",
+        destination: "/blog/ayurvedic-pcd-company-in-mizoram",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-madurai",
+        destination: "/blog/ayurvedic-pcd-company-in-madurai",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-medicine-manufacturers-in-himachal-pradesh",
+        destination: "/blog/ayurvedic-medicine-manufacturers-in-himachal-pradesh",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-kochi",
+        destination: "/blog/ayurvedic-pcd-company-in-kochi",
+        permanent: true
+      },
+      {
+        source: "/packing/60-cap",
+        destination: "/",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-sonipat",
+        destination: "/blog/ayurvedic-pcd-company-in-sonipat",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-panipat",
+        destination: "/blog/ayurvedic-pcd-company-in-panipat",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-bhopal",
+        destination: "/blog/ayurvedic-pcd-company-in-bhopal",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-bhubaneswar",
+        destination: "/blog/ayurvedic-pcd-company-in-bhubaneswar",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-himachal-pradesh",
+        destination: "/blog/ayurvedic-pcd-company-in-himachal-pradesh",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-allahabad",
+        destination: "/blog/ayurvedic-pcd-company-in-allahabad",
+        permanent: true
+      },
+      {
+        source: "/product-category/erectile-dysfunction",
+        destination: "/product/category/erectile-dysfunction/94",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-medicine-manufacturer-in-ahmedabad",
+        destination: "/blog/ayurvedic-medicine-manufacturer-in-ahmedabad",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-ujjain",
+        destination: "/blog/ayurvedic-pcd-company-in-ujjain",
+        permanent: true
+      },
+      {
+        source: "/ayurvedic-pcd-company-in-tamil-nadu",
+        destination: "/blog/ayurvedic-pcd-company-in-tamil-nadu",
+        permanent: true
+      },
+      {
+        source: "/shop/page/4/",
+        destination: "/",
+        permanent: true
+      },
+      {
+        source: "/wp-content/uploads",
+        destination: "/",
+        permanent: true
+      },
+      {
+        source: "/wp-content/themes/betheme-child",
+        destination: "/",
+        permanent: true
+      },
+      {
+        source: "/wp-admin",
+        destination: "/",
+        permanent: true
+      },
+      {
+        source: "/product/shakti-up-a-powerful-vital-health-tonic",
+        destination: "/product/shakti-up-juice-vital-health-tonic",
+        permanent: true
+      },
+      {
+        source: "/product/digstone-mpaired-digestion-constipationhyperacidityhypoaciditylassitudedyspep-sia-gastricdiscomfortflatulence",
+        destination: "/product/digstone-digestive-support-syrup",
+        permanent: true
+      },
+      {
+        source: "/product/gas-har-gastritis-dyspepsia",
+        destination: "/product/gas-har-herbal-digestive-support",
+        permanent: true
+      },
+      {
+        source: "/product/pylofyn-syp",
+        destination: "/product/pylofyn-syrup-for-piles-hemorrhoids",
+        permanent: true
+      },
+      {
+        source: "/product/pylofyn-capsules",
+        destination: "/product/pylofyn-capsules-for-piles-hemorrhoids",
+        permanent: true
+      },
+      {
+        source: "/product/pilofyn-cream-herbal-treatment-for-piles-fissures",
+        destination: "/product/pylofyn-cream-for-piles-fissures",
+        permanent: true
+      },
+      {
+        source: "/product/pilofyn-for-internal-and-external-hemorrhoidsanal-fissures-pregnancy-inducedhaemorrhoids-it-also-prevents-secondarymicrobial-infections-in-the-body",
+        destination: "/product/pylofyn-capsules-for-internal-and-external-hemorrhoids",
+        permanent: true
+      },
+      {
+        source: "/product/pilofyn-syrup-herbal-remedy-for-piles",
+        destination: "/product/pylofyn-syrup-herbal-remedy-for-piles",
+        permanent: true
+      },
+      {
+        source: "/product/livtru-da-liver-tonic-with-benefits-of-enzyme",
+        destination: "/product/livtru-da-liver-tonic",
+        permanent: true
+      },
+      {
+        source: "/product/livtru-d-s-homeostatic-health-tonic-treatshepatitis-jaundice-cirrhosis-due-todrugs-alcohol-infantile-liverdisordersanorexia",
+        destination: "/product/livtru-ds-liver-tonic",
+        permanent: true
+      },
+      {
+        source: "/product/livtru-t-s-liver-tonic-for-adults",
+        destination: "/product/livtru-ts-liver-tonic-for-adults",
+        permanent: true
+      },
+      {
+        source: "/product/livtru-sl-support-healthy-liver-functions-with-added-benefits-of-silimarine",
+        destination: "/product/livtru-sl-liver-tonic",
+        permanent: true
+      },
+      {
+        source: "/product/orthofyn-rhematoid-arthrhitis-osteoarthrhitiscervical-lumbar-spondylosis-traumaticinflamatory-conditions",
+        destination: "/product/orthofyn-syrup-for-joint-pain",
+        permanent: true
+      },
+      {
+        source: "/product/calryz-a-perfect-combination-of-calcium",
+        destination: "/product/calryz-syrup-combination-of-calcium",
+        permanent: true
+      },
+      {
+        source: "/product/itchcalm-skin-lotion-removes-acne-pimple-spots-blemisheswrinkles-also-effective-in-ring-wormitching-eczema-leucoderma-urticariaskin-allergy-and-sun-burns",
+        destination: "/product/itchcalm-skin-lotion",
+        permanent: true
+      },
+      {
+        source: "/product/breth-ezy-allergic-rhinitis-chronic-bronchitisbronchial-asthma-chronic-coughrespiratory-allergy",
+        destination: "/product/breth-ezy-capsules-for-allergies-cough-asthma",
+        permanent: true
+      },
+      {
+        source: "/product/sagitus-honey-based-cough-syrupcoughcoldbronchitis-respiratorydisorders",
+        destination: "/product/sagitus-cough-syrup",
+        permanent: true
+      },
+      {
+        source: "/product/breth-ezy-for-severe-coughchronic-bronchitis-asthma",
+        destination: "/product/breth-ezy-syrup-for-cough-chronic-bronchitis-asthma",
+        permanent: true
+      },
+      {
+        source: "/product/cofset-coughcoldbronchitis-respiratorydisorders",
+        destination: "/product/cofset-cough-syrup",
+        permanent: true
+      },
+      {
+        source: "/product/boncis-q-for-joint-health-bone-tissue-growth-2",
+        destination: "/product/boncis-q-capsules-for-joint-health-bone-tissue-growth",
+        permanent: true
+      },
+      {
+        source: "/product/boncis-q-for-joint-health-bone-tissue-growth",
+        destination: "/product/boncis-q-syrup-for-joint-health-bone-tissue-growth",
+        permanent: true
+      },
+      {
+        source: "/product/orthofyn-balm-muscular-debilityjoint-pain",
+        destination: "/product/orthofyn-balm-for-muscular-debility-joint-pain",
+        permanent: true
+      },
+      {
+        source: "/product/noni-with-garcinia-cambogia",
+        destination: "/product/noni-with-garcinia-cambogia-juice",
+        permanent: true
+      },
+      {
+        source: "/product/prostfyn",
+        destination: "/product/prostfyn-capsules-for-prostate-health-urinary-flow",
+        permanent: true
+      },
+      {
+        source: "/product/lactofem-lactogenic-glactokinetic-lactopoiticaction-serves-as-natural-ironreinforcement-during-pregnancy-keepmother-ready-for-lactation-stageexcellent-restorative",
+        destination: "/product/lactofem-syrup-Lactogenic-restorative-support-for-mothers",
+        permanent: true
+      },
+      {
+        source: "/product/femfyn-leucorrhoea-oilgomenorrhoeairregular-primary-secondaryamenorrhea",
+        destination: "/product/femfyn-syrup-for-menstrual-disorder",
+        permanent: true
+      },
+      {
+        source: "/product/femfyn-menstrual-imbalance-amenorrheadysmenorrhea",
+        destination: "/product/femfyn-capsules-for-menstrual-imbalance",
+        permanent: true
+      },
+      {
+        source: "/product/lactofem-lactogenic-glactokinetic-lactopoitic-action-serves-as-naturaliron-reinforcement-duringpregnancy-keep-mother-ready-forlactation-stage-excellentrestorative",
+        destination: "/product/lactofem-capsules-nutritional-support-for-mothers",
+        permanent: true
+      },
+      {
+        source: "/product/keshfyn-hair-oil-helps-strengthen-soften-andrestore-shine",
+        destination: "/product/keshfyn-onion-hair-oil",
+        permanent: true
+      },
+      {
+        source: "/product/keshfyn-hair-fall-pre-mature-greying-of-hair",
+        destination: "/product/keshfyn-hair-capsules-for-hair-fall-premature-greying",
+        permanent: true
+      },
+      {
+        source: "/product/keshsafe-oil",
+        destination: "/product/keshsafe-hair-oil-for-dandruff-hair-strength",
+        permanent: true
+      },
+      {
+        source: "/product/hydrofyn-cold-cream",
+        destination: "/product/hydrofyn-aloevera-cold-cream",
+        permanent: true
+      },
+      {
+        source: "/product/skinfyn-face-pack-treats-hyperpigmentation-improvescomplexion",
+        destination: "/product/skinfyn-face-pack",
+        permanent: true
+      },
+      {
+        source: "/product/itchcalm-cream-relief-of-minor-skin-irritationitching-and-rashes",
+        destination: "/product/itchcalm-cream",
+        permanent: true
+      },
+      {
+        source: "/product/skinfyn-cream-protect-acne-fights-against-skin-infections",
+        destination: "/product/skinfyn-cream-for-acne-skin-infections",
+        permanent: true
+      },
+      {
+        source: "/product/amla-with-wheat-grass",
+        destination: "/product/amla-with-wheat-grass-juice",
+        permanent: true
+      },
+      {
+        source: "/product/aloevera-with-wheat-grass",
+        destination: "/product/aloevera-with-wheat-grass-juice",
+        permanent: true
+      },
+      {
+        source: "/product/skinfyn-tereats-urticariadermatosischronic-skin-infections-purifies-bllod",
+        destination: "/product/skinfyn-capsules-for-skin",
+        permanent: true
+      },
+      {
+        source: "/product/skinfyn-protect-acne-fights-against-skin-infections",
+        destination: "/product/skinfyn-blood-purifier",
+        permanent: true
+      },
+      {
+        source: "/product/fairglo-fairness-cream-treats-pigmentation-blemishesrestores-youthful-radiant-skinhydrating-nourishing",
+        destination: "/product/fairglo-herbal-fairness-cream",
+        permanent: true
+      },
+      {
+        source: "/product/uv-shield",
+        destination: "/product/uv-shield-herbal-sunscreen-lotion",
+        permanent: true
+      },
+      {
+        source: "/product/walnut-scrub",
+        destination: "/product/walnut-face-body-scrub",
+        permanent: true
+      },
+      {
+        source: "/product/nutivit-drops-enriched-with-natural-ironcalcium-vitamins-for-infants",
+        destination: "/product/nutivit-drops-for-kids",
+        permanent: true
+      },
+      {
+        source: "/product/tulsi-active-panch-tulsi",
+        destination: "/product/tul-c-active-syrup-for-immunity-support",
+        permanent: true
+      },
+      {
+        source: "/product/hemoplat-x-increases-platelet-count",
+        destination: "/product/hemoplat-x-tablets-for-platelet-count",
+        permanent: true
+      },
+      {
+        source: "/product/moringa-for-anti-aging-promotes-healthy-skinimproves-bones-density-build-immunityaids-digestion",
+        destination: "/product/moringa-capsules-for-anti-aging-immunity",
+        permanent: true
+      },
+      {
+        source: "/product/cardset-dyslipidaemia-high-cholesterol-andtriglycerides-mild-to-moderatehypertension-cardiovascular-andcerebrovascular-conditions",
+        destination: "/product/cardset-capsules-for-heart-health",
+        permanent: true
+      },
+      {
+        source: "/product/cardset-for-healthy-heart",
+        destination: "/product/cardset-syrup-for-heart-health",
+        permanent: true
+      },
+      {
+        source: "/product/more-iq-for-a-sharper-faster-brain",
+        destination: "/product/more-iq-capsules-for-active-brain",
+        permanent: true
+      },
+      {
+        source: "/product/orthoflex-cap",
+        destination: "/product/orthoflex-capsules-for-joint-bone-health",
+        permanent: true
+      },
+      {
+        source: "/product/calryz-aperfect-combination-of-calcium",
+        destination: "/product/calryz-tablets-for-bone-health",
+        permanent: true
+      },
+      {
+        source: "/product/uricset-anti-inflammatory-controls-uric-acidcures-gout-joint-pain",
+        destination: "/product/uricset-capsules-for-gout-joint-pain-uric-acid",
+        permanent: true
+      },
+      {
+        source: "/product/nutivit-a-daily-revitaliser",
+        destination: "/product/nutivit-capsules-for-energy-immunity-vitality",
+        permanent: true
+      },
+      {
+        source: "/product/nutivit-nutritional-deficiency-generalweaknessloss-of-weight-appetitedebility-after-prolonged-illness",
+        destination: "/product/nutivit-capsules-for-nutritional-deficiency",
+        permanent: true
+      },
+      {
+        source: "/product/all-in-one-syrup-a-complete-family-health-tonic",
+        destination: "/product/all-in-one-syrup-health-tonic",
+        permanent: true
+      },
+      {
+        source: "/product/sea-buckthorn-juice-good-health-energy-immunebooster-hair-regrowth-controlmetabolism",
+        destination: "/product/sea-buckthorn-juice-for-energy-immunity",
+        permanent: true
+      },
+      {
+        source: "/product/giloy-tab-boost-immunity-treats-chronic-feverimproves-digestion-treats-diabetes-treatsarthritis-improve-vision",
+        destination: "/product/giloy-tablets-for-immunity",
+        permanent: true
+      },
+      {
+        source: "/product/septfynfor-immunity",
+        destination: "/product/septfyn-tablets-for-immunity-support",
+        permanent: true
+      },
+      {
+        source: "/product/septfyn-a-herbal-antibiotic",
+        destination: "/product/septfyn-capsules-herbal-antibiotic",
+        permanent: true
+      },
+      {
+        source: "/product/sanjivani-ras-detoxifier-immunity-boosterrejuvenating-anti-ageing",
+        destination: "/product/sanjivani-ras-detoxifier-immunity-booster",
+        permanent: true
+      },
+      {
+        source: "/product/septfyn-syrup-a-herbal-antibiotic",
+        destination: "/product/septfyn-syrup-herbal-antibiotic",
+        permanent: true
+      },
+      {
+        source: "/product/neem-karela-jamun-giloy",
+        destination: "/product/neem-karela-jamun-giloy-juice",
+        permanent: true
+      },
+      {
+        source: "/product/thyrocalm-for-hypothyroidism-impaired-thyroxinlevels-boosts-metabolism-and-alsoeffective-in-obesity-goiter-muscleweakness",
+        destination: "/product/thyrocalm-capsules-for-thyroid-balance",
+        permanent: true
+      },
+      {
+        source: "/product/stonkil-an-effective-treatment-for-kidneystones-a-combo-pack-of-18-cap-inside",
+        destination: "/product/stonkil-capsules-for-kidney-stones",
+        permanent: true
+      },
+      {
+        source: "/product/more-iq-capsules-for-active-brain",
+        destination: "/product/more-iq-syrup-for-active-brain",
+        permanent: true
+      },
+      {
+        source: "/product/nutivit-capsules-for-nutritional-deficiency",
+        destination: "/product/nutivit-malt-tonic-for-nutritional-deficiency",
+        permanent: true
+      }
     ]
   }
 };

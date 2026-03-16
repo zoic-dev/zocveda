@@ -124,29 +124,11 @@ const Footer = () => {
                             Contact Us
                         </Typography>
                         <Stack spacing={2} mb={2}>
-                            {/* <Stack direction={"row"} spacing={1}>
-                                <Email fontSize="small" />
-
-                                <MUILink
-                                    component={Link}
-                                    href={"mailto:info@zocveda.com"}
-                                    underline="none"
-                                    sx={{
-                                        color: "#acacac",
-                                        fontSize: 16,
-                                        transition: "0.3s",
-                                        "&:hover": { color: "#E52C86" },
-                                    }}
-                                >
-                                    info@zocveda.com
-                                </MUILink>
-                            </Stack> */}
-
                             <Stack direction={"row"} spacing={1}>
                                 <Phone fontSize="small" />
                                 <MUILink
                                     component={Link}
-                                    href={"tel:9815620908"}
+                                    href={"tel:9815846086"}
                                     underline="none"
                                     sx={{
                                         color: "#acacac",
@@ -155,7 +137,25 @@ const Footer = () => {
                                         "&:hover": { color: "#E52C86" },
                                     }}
                                 >
-                                    +91-98156-20908
+                                    +91-98158-46085
+                                </MUILink>
+                            </Stack>
+
+                            <Stack direction={"row"} spacing={1}>
+                                <Email fontSize="small" />
+
+                                <MUILink
+                                    component={Link}
+                                    href={"mailto:info@zoicpharmaceuticals.com"}
+                                    underline="none"
+                                    sx={{
+                                        color: "#acacac",
+                                        fontSize: 16,
+                                        transition: "0.3s",
+                                        "&:hover": { color: "#E52C86" },
+                                    }}
+                                >
+                                    info@zoicpharmaceuticals.com
                                 </MUILink>
                             </Stack>
 

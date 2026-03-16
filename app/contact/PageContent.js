@@ -172,8 +172,8 @@ export default function PageContent() {
                             Phone
                         </Typography>
                         <Stack direction="row" justifyContent="center" spacing={2}>
-                            <Link href="tel:9815620908">
-                                <Typography variant="body1">98156-20908</Typography>
+                            <Link href="tel:9815846086">
+                                <Typography variant="body1">98158-46086</Typography>
                             </Link>
                         </Stack>
                     </Stack>
@@ -206,13 +206,15 @@ export default function PageContent() {
                                 "&:hover": { backgroundColor: "#E64A19" },
                             }}
                         >
-                            <LocationPin fontSize="medium" />
+                            <Email fontSize="medium" />
                         </IconButton>
                         <Typography variant="h5" fontWeight={600} gutterBottom>
-                            Corporate Office
+                            Email
                         </Typography>
                         <Stack direction="row" justifyContent="center" spacing={2}>
-                            <Typography variant="body1">Plot No. 194, Sector 82, Industrial Area, Mohali</Typography>
+                            <Link href="mailto:info@zoicpharmaceuticals.com">
+                                <Typography variant="body1">info@zoicpharmaceuticals.com</Typography>
+                            </Link>
                         </Stack>
                     </Stack>
                 </Grid>
