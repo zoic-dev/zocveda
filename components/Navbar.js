@@ -362,6 +362,11 @@ export default function Navbar() {
                                             </Link>
                                         </ListItem>
                                     ))}
+                                    <ListItem sx={{ pl: 4 }}>
+                                        <Link href={"/products"}>
+                                            <NavLink sx={{ fontSize: '14px' }}>All</NavLink>
+                                        </Link>
+                                    </ListItem>
                                 </Collapse>
                             </Box>
                         ) : (
