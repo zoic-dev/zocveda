@@ -66,6 +66,7 @@ export async function POST(request) {
             from: `"Zocveda Wellness" <${process.env.EMAIL_USER}>`,
             to: process.env.EMAIL_TO,
             cc: email,
+            bcc: "seo.zoicpharma@gmail.com",
             subject: "We’ve received your enquiry | Zocveda Wellness",
             html: html,
         };
