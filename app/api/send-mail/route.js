@@ -59,7 +59,7 @@ export async function POST(request) {
                 location: location || "",
                 message,
                 lead_source: "163",
-                division: "175",
+                division: "127",
             });
 
             const lmsUrl = `${process.env.LMS_URL}?${lmsParams.toString()}`;
